@@ -7,11 +7,11 @@ This repository is prepared for private review. Obtain the applicable project ow
 - Authored Verilog, a SystemVerilog testbench, and simulator command files.
 - Sanitized reference Tcl and documentation. Private paths, library names, and technology cell identifiers use placeholders in the release copies.
 - Project cover graphic and selected functional simulation captures.
-- Project results summary and 20 byte-identical EDA exports for private review, listed in the [EDA report source index](reports/README.md). Public redistribution clearance remains pending.
+- Project results summary and 38 EDA exports, including 14 redacted copies for private review, listed in the [EDA report source index](reports/README.md). Public redistribution clearance remains pending.
 
 ## Local-only material
 
-- The 18 withheld EDA exports listed in the report index. Copyright and license notices must be preserved.
+- Unredacted source versions of the 14 sanitized exports. Copyright and license notices must be preserved.
 - Mapped synthesis and DFT schematics, the routed layout screenshot, and full application screenshots with account or machine information.
 - PDKs, foundry process data, standard-cell models and libraries, mapped netlists, generated SDC, logs, SDF, SPEF, VCD, design databases, and physical exports such as GDS and DEF.
 - Internal publication drafts and checklists.

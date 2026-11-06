@@ -1,0 +1,720 @@
+**************************************************
+Report         : passing_points
+
+Reference      : Ref:/WORK/FIR_Filter
+Implementation : Imp:/WORK/FIR_Filter
+Version        : L-2016.03-SP1
+Date           : Mon Sep 28 03:19:26 2026
+**************************************************
+
+228 Passing compare points:
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[0][0]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[0][0]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[0][10]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[0][10]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[0][11]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[0][11]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[0][12]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[0][12]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[0][13]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[0][13]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[0][14]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[0][14]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[0][15]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[0][15]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[0][1]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[0][1]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[0][2]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[0][2]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[0][3]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[0][3]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[0][4]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[0][4]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[0][5]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[0][5]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[0][6]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[0][6]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[0][7]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[0][7]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[0][8]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[0][8]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[0][9]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[0][9]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[1][0]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[1][0]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[1][10]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[1][10]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[1][11]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[1][11]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[1][12]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[1][12]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[1][13]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[1][13]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[1][14]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[1][14]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[1][15]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[1][15]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[1][1]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[1][1]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[1][2]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[1][2]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[1][3]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[1][3]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[1][4]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[1][4]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[1][5]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[1][5]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[1][6]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[1][6]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[1][7]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[1][7]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[1][8]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[1][8]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[1][9]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[1][9]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[2][0]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[2][0]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[2][10]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[2][10]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[2][11]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[2][11]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[2][12]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[2][12]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[2][13]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[2][13]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[2][14]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[2][14]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[2][15]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[2][15]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[2][1]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[2][1]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[2][2]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[2][2]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[2][3]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[2][3]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[2][4]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[2][4]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[2][5]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[2][5]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[2][6]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[2][6]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[2][7]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[2][7]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[2][8]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[2][8]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[2][9]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[2][9]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[3][0]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[3][0]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[3][10]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[3][10]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[3][11]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[3][11]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[3][12]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[3][12]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[3][13]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[3][13]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[3][14]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[3][14]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[3][15]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[3][15]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[3][1]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[3][1]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[3][2]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[3][2]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[3][3]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[3][3]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[3][4]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[3][4]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[3][5]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[3][5]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[3][6]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[3][6]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[3][7]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[3][7]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[3][8]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[3][8]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[3][9]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[3][9]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[4][0]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[4][0]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[4][10]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[4][10]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[4][11]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[4][11]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[4][12]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[4][12]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[4][13]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[4][13]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[4][14]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[4][14]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[4][15]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[4][15]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[4][1]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[4][1]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[4][2]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[4][2]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[4][3]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[4][3]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[4][4]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[4][4]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[4][5]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[4][5]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[4][6]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[4][6]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[4][7]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[4][7]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[4][8]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[4][8]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[4][9]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[4][9]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[5][0]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[5][0]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[5][10]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[5][10]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[5][11]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[5][11]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[5][12]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[5][12]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[5][13]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[5][13]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[5][14]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[5][14]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[5][15]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[5][15]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[5][1]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[5][1]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[5][2]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[5][2]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[5][3]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[5][3]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[5][4]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[5][4]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[5][5]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[5][5]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[5][6]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[5][6]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[5][7]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[5][7]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[5][8]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[5][8]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[5][9]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[5][9]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[6][0]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[6][0]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[6][10]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[6][10]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[6][11]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[6][11]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[6][12]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[6][12]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[6][13]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[6][13]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[6][14]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[6][14]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[6][15]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[6][15]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[6][1]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[6][1]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[6][2]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[6][2]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[6][3]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[6][3]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[6][4]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[6][4]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[6][5]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[6][5]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[6][6]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[6][6]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[6][7]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[6][7]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[6][8]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[6][8]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[6][9]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[6][9]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[7][0]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[7][0]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[7][10]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[7][10]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[7][11]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[7][11]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[7][12]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[7][12]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[7][13]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[7][13]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[7][14]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[7][14]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[7][15]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[7][15]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[7][1]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[7][1]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[7][2]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[7][2]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[7][3]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[7][3]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[7][4]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[7][4]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[7][5]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[7][5]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[7][6]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[7][6]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[7][7]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[7][7]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[7][8]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[7][8]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/FIR_REG_reg[7][9]
+  Impl DFF        Imp:/WORK/FIR_Filter/FIR_REG_reg[7][9]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/data_out_reg[0]
+  Impl DFF        Imp:/WORK/FIR_Filter/data_out_reg[0]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/data_out_reg[10]
+  Impl DFF        Imp:/WORK/FIR_Filter/data_out_reg[10]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/data_out_reg[11]
+  Impl DFF        Imp:/WORK/FIR_Filter/data_out_reg[11]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/data_out_reg[12]
+  Impl DFF        Imp:/WORK/FIR_Filter/data_out_reg[12]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/data_out_reg[13]
+  Impl DFF        Imp:/WORK/FIR_Filter/data_out_reg[13]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/data_out_reg[14]
+  Impl DFF        Imp:/WORK/FIR_Filter/data_out_reg[14]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/data_out_reg[15]
+  Impl DFF        Imp:/WORK/FIR_Filter/data_out_reg[15]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/data_out_reg[16]
+  Impl DFF        Imp:/WORK/FIR_Filter/data_out_reg[16]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/data_out_reg[17]
+  Impl DFF        Imp:/WORK/FIR_Filter/data_out_reg[17]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/data_out_reg[18]
+  Impl DFF        Imp:/WORK/FIR_Filter/data_out_reg[18]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/data_out_reg[19]
+  Impl DFF        Imp:/WORK/FIR_Filter/data_out_reg[19]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/data_out_reg[1]
+  Impl DFF        Imp:/WORK/FIR_Filter/data_out_reg[1]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/data_out_reg[2]
+  Impl DFF        Imp:/WORK/FIR_Filter/data_out_reg[2]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/data_out_reg[3]
+  Impl DFF        Imp:/WORK/FIR_Filter/data_out_reg[3]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/data_out_reg[4]
+  Impl DFF        Imp:/WORK/FIR_Filter/data_out_reg[4]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/data_out_reg[5]
+  Impl DFF        Imp:/WORK/FIR_Filter/data_out_reg[5]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/data_out_reg[6]
+  Impl DFF        Imp:/WORK/FIR_Filter/data_out_reg[6]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/data_out_reg[7]
+  Impl DFF        Imp:/WORK/FIR_Filter/data_out_reg[7]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/data_out_reg[8]
+  Impl DFF        Imp:/WORK/FIR_Filter/data_out_reg[8]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/data_out_reg[9]
+  Impl DFF        Imp:/WORK/FIR_Filter/data_out_reg[9]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[10]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[10]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[11]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[11]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[12]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[12]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[13]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[13]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[14]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[14]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[15]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[15]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[16]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[16]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[17]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[17]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[18]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[18]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[19]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[19]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[1]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[1]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[20]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[20]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[21]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[21]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[22]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[22]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[23]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[23]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[24]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[24]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[25]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[25]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[2]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[2]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[33]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[33]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[3]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[3]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[4]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[4]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[5]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[5]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[6]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[6]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[7]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[7]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[8]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[8]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[9]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.A_sum_0_1_reg[9]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[10]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[10]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[11]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[11]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[12]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[12]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[13]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[13]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[14]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[14]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[15]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[15]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[16]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[16]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[17]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[17]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[18]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[18]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[19]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[19]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[1]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[1]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[20]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[20]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[21]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[21]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[22]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[22]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[23]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[23]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[24]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[24]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[25]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[25]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[26]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[26]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[27]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[27]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[28]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[28]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[29]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[29]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[2]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[2]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[33]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[33]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[3]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[3]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[4]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[4]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[5]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[5]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[6]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[6]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[7]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[7]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[8]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[8]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[9]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.B_sum_2_3_reg[9]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.valid_pipe_reg[0]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.valid_pipe_reg[0]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/genblk1.genblk1.valid_pipe_reg[1]
+  Impl DFF        Imp:/WORK/FIR_Filter/genblk1.genblk1.valid_pipe_reg[1]
+
+  Ref  DFF        Ref:/WORK/FIR_Filter/out_valid_reg
+  Impl DFF        Imp:/WORK/FIR_Filter/out_valid_reg
+
+  Ref  Port       Ref:/WORK/FIR_Filter/data_out[0]
+  Impl Port       Imp:/WORK/FIR_Filter/data_out[0]
+
+  Ref  Port       Ref:/WORK/FIR_Filter/data_out[10]
+  Impl Port       Imp:/WORK/FIR_Filter/data_out[10]
+
+  Ref  Port       Ref:/WORK/FIR_Filter/data_out[11]
+  Impl Port       Imp:/WORK/FIR_Filter/data_out[11]
+
+  Ref  Port       Ref:/WORK/FIR_Filter/data_out[12]
+  Impl Port       Imp:/WORK/FIR_Filter/data_out[12]
+
+  Ref  Port       Ref:/WORK/FIR_Filter/data_out[13]
+  Impl Port       Imp:/WORK/FIR_Filter/data_out[13]
+
+  Ref  Port       Ref:/WORK/FIR_Filter/data_out[14]
+  Impl Port       Imp:/WORK/FIR_Filter/data_out[14]
+
+  Ref  Port       Ref:/WORK/FIR_Filter/data_out[15]
+  Impl Port       Imp:/WORK/FIR_Filter/data_out[15]
+
+  Ref  Port       Ref:/WORK/FIR_Filter/data_out[16]
+  Impl Port       Imp:/WORK/FIR_Filter/data_out[16]
+
+  Ref  Port       Ref:/WORK/FIR_Filter/data_out[17]
+  Impl Port       Imp:/WORK/FIR_Filter/data_out[17]
+
+  Ref  Port       Ref:/WORK/FIR_Filter/data_out[18]
+  Impl Port       Imp:/WORK/FIR_Filter/data_out[18]
+
+  Ref  Port       Ref:/WORK/FIR_Filter/data_out[19]
+  Impl Port       Imp:/WORK/FIR_Filter/data_out[19]
+
+  Ref  Port       Ref:/WORK/FIR_Filter/data_out[1]
+  Impl Port       Imp:/WORK/FIR_Filter/data_out[1]
+
+  Ref  Port       Ref:/WORK/FIR_Filter/data_out[2]
+  Impl Port       Imp:/WORK/FIR_Filter/data_out[2]
+
+  Ref  Port       Ref:/WORK/FIR_Filter/data_out[3]
+  Impl Port       Imp:/WORK/FIR_Filter/data_out[3]
+
+  Ref  Port       Ref:/WORK/FIR_Filter/data_out[4]
+  Impl Port       Imp:/WORK/FIR_Filter/data_out[4]
+
+  Ref  Port       Ref:/WORK/FIR_Filter/data_out[5]
+  Impl Port       Imp:/WORK/FIR_Filter/data_out[5]
+
+  Ref  Port       Ref:/WORK/FIR_Filter/data_out[6]
+  Impl Port       Imp:/WORK/FIR_Filter/data_out[6]
+
+  Ref  Port       Ref:/WORK/FIR_Filter/data_out[7]
+  Impl Port       Imp:/WORK/FIR_Filter/data_out[7]
+
+  Ref  Port       Ref:/WORK/FIR_Filter/data_out[8]
+  Impl Port       Imp:/WORK/FIR_Filter/data_out[8]
+
+  Ref  Port       Ref:/WORK/FIR_Filter/data_out[9]
+  Impl Port       Imp:/WORK/FIR_Filter/data_out[9]
+
+  Ref  Port       Ref:/WORK/FIR_Filter/out_valid
+  Impl Port       Imp:/WORK/FIR_Filter/out_valid
+
+ [BBNet: multiply-driven net
+  BBPin: black-box pin
+  Cut:   cut-point
+  DFF:   non-constant DFF register
+  DFF0:  constant 0 DFF register
+  DFF1:  constant 1 DFF register
+  DFFX:  constant X DFF register
+  DFF0X: constrained 0X DFF register
+  DFF1X: constrained 1X DFF register
+  LAT:   non-constant latch register
+  LAT0:  constant 0 latch register
+  LAT1:  constant 1 latch register
+  LATX:  constant X latch register
+  LAT0X: constrained 0X latch register
+  LAT1X: constrained 1X latch register
+  LATCG: clock-gating latch register
+  TLA:   transparent latch register
+  TLA0X: transparent constrained 0X latch register
+  TLA1X: transparent constrained 1X latch register
+  Loop:  cycle break point
+  Port:  primary (top-level) port
+  Und:   undriven signal cut-point
+  Unk:   unknown signal cut-point]
+
+1

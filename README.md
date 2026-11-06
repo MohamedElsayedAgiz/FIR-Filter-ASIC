@@ -14,7 +14,7 @@ An ASIC case study of a symmetric, pipelined FIR filter implemented in Verilog. 
 | Total power | **7.943 mW** | PrimeTime time-based analysis, TT at 1.2 V and 25 °C |
 | DFT scan chains | **2** | Multiplexed scan configuration |
 
-See [results and analysis scope](docs/RESULTS.md) and the [EDA report source index](reports/README.md). The [evidence review](reports/README.md) classifies all 38 genuine tool exports and records the permission needed for each. The source files remain local. See the [screenshot review](docs/IMAGE_SELECTION.md) for the original captures and their release status.
+See [results and analysis scope](docs/RESULTS.md) and the [EDA report source index](reports/README.md). The [evidence review](reports/README.md) classifies all 38 genuine tool exports and records the permission needed for each. Twenty byte-identical tool exports are available for private review. Start with [DFT coverage](reports/tool_exports/dft/coverage_dft.rpt), [post-synthesis Formality](reports/tool_exports/formality/post_synthesis/passing_points.rpt), [post-DFT Formality](reports/tool_exports/formality/post_dft/passing_points.rpt), [Encounter post-route setup](reports/tool_exports/encounter/FIR_Filter_postRoute.summary), [Encounter post-route hold](reports/tool_exports/encounter/FIR_Filter_postRoute_hold.summary), [PrimeTime setup violations](reports/tool_exports/primetime/setup_violations.rpt), [PrimeTime hold violations](reports/tool_exports/primetime/hold_violations.rpt), and [PrimeTime time-based power](reports/tool_exports/primetime/power_tt.rpt). See the [screenshot review](docs/IMAGE_SELECTION.md) for the original captures and their release status.
 
 ## RTL design and simulation
 
@@ -23,6 +23,8 @@ The filter accepts signed 16-bit samples and uses signed Q1.15 coefficients. Its
 ![Original functional RTL simulation waveform](docs/images/rtl_simulation_waveform.png)
 
 ![Original simulation summary showing 85 passes, zero failures, and two clocks of latency](docs/images/rtl_test_summary.png)
+
+Original console captures show [impulse and DC tests](docs/images/rtl_test_cases_1_2.png), [alternating input and valid gaps](docs/images/rtl_test_cases_3_4.png), and [random samples](docs/images/rtl_test_case_5.png).
 
 The captured simulation records 85 passes, zero failures, and two cycles of latency. The [testbench](tb/README.md) observes a 16-bit output, so the captured results cover that test configuration. The [scan-interface variant](rtl/FIR_Filter_DFT.v) and [optional clock and reset wrapper](rtl/TOP_optional_wrapper.v) are also included. The documented implementation top is `FIR_Filter`.
 

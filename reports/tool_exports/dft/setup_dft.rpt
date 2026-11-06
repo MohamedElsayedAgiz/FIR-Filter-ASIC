@@ -58,7 +58,7 @@ Wire Load Model Mode: top
   data required time                                                 3.04
   data arrival time                                                 -3.04
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.00
+  slack (MET)                                                        0.00
 
 
   Startpoint: FIR_REG_reg[4][8]
@@ -104,7 +104,7 @@ Wire Load Model Mode: top
   data required time                                                 3.06
   data arrival time                                                 -3.06
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.00
+  slack (MET)                                                        0.00
 
 
   Startpoint: FIR_REG_reg[4][8]
@@ -150,7 +150,7 @@ Wire Load Model Mode: top
   data required time                                                 3.06
   data arrival time                                                 -3.06
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.00
+  slack (MET)                                                        0.00
 
 
   Startpoint: FIR_REG_reg[4][8]
@@ -196,7 +196,7 @@ Wire Load Model Mode: top
   data required time                                                 3.06
   data arrival time                                                 -3.06
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.00
+  slack (MET)                                                        0.00
 
 
   Startpoint: FIR_REG_reg[4][8]
@@ -242,7 +242,7 @@ Wire Load Model Mode: top
   data required time                                                 3.06
   data arrival time                                                 -3.06
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.00
+  slack (MET)                                                        0.00
 
 
   Startpoint: FIR_REG_reg[4][8]
@@ -288,7 +288,7 @@ Wire Load Model Mode: top
   data required time                                                 3.06
   data arrival time                                                 -3.06
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.00
+  slack (MET)                                                        0.00
 
 
   Startpoint: FIR_REG_reg[2][0]
@@ -335,7 +335,7 @@ Wire Load Model Mode: top
   data required time                                                 2.97
   data arrival time                                                 -2.97
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.00
+  slack (MET)                                                        0.00
 
 
   Startpoint: FIR_REG_reg[2][0]
@@ -382,7 +382,7 @@ Wire Load Model Mode: top
   data required time                                                 2.97
   data arrival time                                                 -2.97
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.00
+  slack (MET)                                                        0.00
 
 
   Startpoint: FIR_REG_reg[2][0]
@@ -430,7 +430,7 @@ Wire Load Model Mode: top
   data required time                                                 3.04
   data arrival time                                                 -3.04
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.00
+  slack (MET)                                                        0.00
 
 
   Startpoint: FIR_REG_reg[2][0]
@@ -478,7 +478,7 @@ Wire Load Model Mode: top
   data required time                                                 3.04
   data arrival time                                                 -3.04
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.00
+  slack (MET)                                                        0.00
 
 
   Startpoint: FIR_REG_reg[2][0]
@@ -526,7 +526,7 @@ Wire Load Model Mode: top
   data required time                                                 3.04
   data arrival time                                                 -3.04
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.00
+  slack (MET)                                                        0.00
 
 
   Startpoint: FIR_REG_reg[0][3]
@@ -569,7 +569,7 @@ Wire Load Model Mode: top
   data required time                                                 2.99
   data arrival time                                                 -2.99
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.00
+  slack (MET)                                                        0.00
 
 
   Startpoint: FIR_REG_reg[1][6]
@@ -611,7 +611,7 @@ Wire Load Model Mode: top
   data required time                                                 3.06
   data arrival time                                                 -3.06
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.00
+  slack (MET)                                                        0.00
 
 
   Startpoint: FIR_REG_reg[1][6]
@@ -653,7 +653,7 @@ Wire Load Model Mode: top
   data required time                                                 3.06
   data arrival time                                                 -3.06
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.00
+  slack (MET)                                                        0.00
 
 
   Startpoint: FIR_REG_reg[1][6]
@@ -695,7 +695,7 @@ Wire Load Model Mode: top
   data required time                                                 3.06
   data arrival time                                                 -3.06
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.00
+  slack (MET)                                                        0.00
 
 
   Startpoint: FIR_REG_reg[1][6]
@@ -737,7 +737,7 @@ Wire Load Model Mode: top
   data required time                                                 3.06
   data arrival time                                                 -3.06
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.00
+  slack (MET)                                                        0.00
 
 
   Startpoint: FIR_REG_reg[1][6]
@@ -779,7 +779,7 @@ Wire Load Model Mode: top
   data required time                                                 3.06
   data arrival time                                                 -3.06
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.00
+  slack (MET)                                                        0.00
 
 
   Startpoint: FIR_REG_reg[2][0]
@@ -826,7 +826,7 @@ Wire Load Model Mode: top
   data required time                                                 3.06
   data arrival time                                                 -3.06
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.00
+  slack (MET)                                                        0.00
 
 
   Startpoint: FIR_REG_reg[0][3]
@@ -870,7 +870,7 @@ Wire Load Model Mode: top
   data required time                                                 3.05
   data arrival time                                                 -3.04
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.00
+  slack (MET)                                                        0.00
 
 
   Startpoint: FIR_REG_reg[0][3]
@@ -913,7 +913,7 @@ Wire Load Model Mode: top
   data required time                                                 2.99
   data arrival time                                                 -2.98
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.00
+  slack (MET)                                                        0.00
 
 
   Startpoint: FIR_REG_reg[3][6]
@@ -958,7 +958,7 @@ Wire Load Model Mode: top
   data required time                                                 2.97
   data arrival time                                                 -2.96
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.00
+  slack (MET)                                                        0.00
 
 
   Startpoint: FIR_REG_reg[0][12]
@@ -1001,7 +1001,7 @@ Wire Load Model Mode: top
   data required time                                                 3.05
   data arrival time                                                 -3.04
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.01
+  slack (MET)                                                        0.01
 
 
   Startpoint: FIR_REG_reg[3][10]
@@ -1045,7 +1045,7 @@ Wire Load Model Mode: top
   data required time                                                 2.98
   data arrival time                                                 -2.97
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.01
+  slack (MET)                                                        0.01
 
 
   Startpoint: FIR_REG_reg[0][3]
@@ -1089,7 +1089,7 @@ Wire Load Model Mode: top
   data required time                                                 3.04
   data arrival time                                                 -3.03
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.01
+  slack (MET)                                                        0.01
 
 
   Startpoint: FIR_REG_reg[6][7]
@@ -1128,7 +1128,7 @@ Wire Load Model Mode: top
   data required time                                                 2.99
   data arrival time                                                 -2.98
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.02
+  slack (MET)                                                        0.02
 
 
   Startpoint: FIR_REG_reg[0][3]
@@ -1171,7 +1171,7 @@ Wire Load Model Mode: top
   data required time                                                 2.99
   data arrival time                                                 -2.97
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.02
+  slack (MET)                                                        0.02
 
 
   Startpoint: FIR_REG_reg[3][6]
@@ -1216,7 +1216,7 @@ Wire Load Model Mode: top
   data required time                                                 2.89
   data arrival time                                                 -2.86
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.03
+  slack (MET)                                                        0.03
 
 
   Startpoint: FIR_REG_reg[2][0]
@@ -1263,7 +1263,7 @@ Wire Load Model Mode: top
   data required time                                                 2.97
   data arrival time                                                 -2.93
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.04
+  slack (MET)                                                        0.04
 
 
   Startpoint: FIR_REG_reg[0][3]
@@ -1306,7 +1306,7 @@ Wire Load Model Mode: top
   data required time                                                 2.97
   data arrival time                                                 -2.94
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.04
+  slack (MET)                                                        0.04
 
 
   Startpoint: FIR_REG_reg[0][3]
@@ -1348,7 +1348,7 @@ Wire Load Model Mode: top
   data required time                                                 2.89
   data arrival time                                                 -2.85
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.04
+  slack (MET)                                                        0.04
 
 
   Startpoint: genblk1.genblk1.A_sum_0_1_reg[1]
@@ -1390,7 +1390,7 @@ Wire Load Model Mode: top
   data required time                                                 2.90
   data arrival time                                                 -2.85
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.06
+  slack (MET)                                                        0.06
 
 
   Startpoint: FIR_REG_reg[0][3]
@@ -1432,7 +1432,7 @@ Wire Load Model Mode: top
   data required time                                                 2.89
   data arrival time                                                 -2.83
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.06
+  slack (MET)                                                        0.06
 
 
   Startpoint: FIR_REG_reg[1][6]
@@ -1473,7 +1473,7 @@ Wire Load Model Mode: top
   data required time                                                 2.97
   data arrival time                                                 -2.90
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.07
+  slack (MET)                                                        0.07
 
 
   Startpoint: genblk1.genblk1.A_sum_0_1_reg[1]
@@ -1514,7 +1514,7 @@ Wire Load Model Mode: top
   data required time                                                 2.89
   data arrival time                                                 -2.79
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.10
+  slack (MET)                                                        0.10
 
 
   Startpoint: FIR_REG_reg[0][3]
@@ -1555,7 +1555,7 @@ Wire Load Model Mode: top
   data required time                                                 2.89
   data arrival time                                                 -2.74
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.15
+  slack (MET)                                                        0.15
 
 
   Startpoint: FIR_REG_reg[2][0]
@@ -1600,7 +1600,7 @@ Wire Load Model Mode: top
   data required time                                                 2.89
   data arrival time                                                 -2.72
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.18
+  slack (MET)                                                        0.18
 
 
   Startpoint: FIR_REG_reg[3][6]
@@ -1644,7 +1644,7 @@ Wire Load Model Mode: top
   data required time                                                 2.89
   data arrival time                                                 -2.71
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.19
+  slack (MET)                                                        0.19
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -1674,7 +1674,7 @@ Wire Load Model Mode: top
   data required time                                  2.86
   data arrival time                                  -2.67
   -----------------------------------------------------------
-  slack ([R])                                         0.20
+  slack (MET)                                         0.20
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -1704,7 +1704,7 @@ Wire Load Model Mode: top
   data required time                                  2.89
   data arrival time                                  -2.67
   -----------------------------------------------------------
-  slack ([R])                                         0.22
+  slack (MET)                                         0.22
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -1734,7 +1734,7 @@ Wire Load Model Mode: top
   data required time                                  2.89
   data arrival time                                  -2.67
   -----------------------------------------------------------
-  slack ([R])                                         0.22
+  slack (MET)                                         0.22
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -1764,7 +1764,7 @@ Wire Load Model Mode: top
   data required time                                  2.89
   data arrival time                                  -2.67
   -----------------------------------------------------------
-  slack ([R])                                         0.22
+  slack (MET)                                         0.22
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -1794,7 +1794,7 @@ Wire Load Model Mode: top
   data required time                                  2.89
   data arrival time                                  -2.67
   -----------------------------------------------------------
-  slack ([R])                                         0.22
+  slack (MET)                                         0.22
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -1824,7 +1824,7 @@ Wire Load Model Mode: top
   data required time                                  2.89
   data arrival time                                  -2.67
   -----------------------------------------------------------
-  slack ([R])                                         0.22
+  slack (MET)                                         0.22
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -1854,7 +1854,7 @@ Wire Load Model Mode: top
   data required time                                  2.89
   data arrival time                                  -2.67
   -----------------------------------------------------------
-  slack ([R])                                         0.22
+  slack (MET)                                         0.22
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -1884,7 +1884,7 @@ Wire Load Model Mode: top
   data required time                                  2.89
   data arrival time                                  -2.67
   -----------------------------------------------------------
-  slack ([R])                                         0.22
+  slack (MET)                                         0.22
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -1914,7 +1914,7 @@ Wire Load Model Mode: top
   data required time                                  2.89
   data arrival time                                  -2.67
   -----------------------------------------------------------
-  slack ([R])                                         0.22
+  slack (MET)                                         0.22
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -1944,7 +1944,7 @@ Wire Load Model Mode: top
   data required time                                  2.89
   data arrival time                                  -2.67
   -----------------------------------------------------------
-  slack ([R])                                         0.22
+  slack (MET)                                         0.22
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -1974,7 +1974,7 @@ Wire Load Model Mode: top
   data required time                                  2.89
   data arrival time                                  -2.67
   -----------------------------------------------------------
-  slack ([R])                                         0.22
+  slack (MET)                                         0.22
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2004,7 +2004,7 @@ Wire Load Model Mode: top
   data required time                                  2.89
   data arrival time                                  -2.67
   -----------------------------------------------------------
-  slack ([R])                                         0.22
+  slack (MET)                                         0.22
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2034,7 +2034,7 @@ Wire Load Model Mode: top
   data required time                                  2.89
   data arrival time                                  -2.67
   -----------------------------------------------------------
-  slack ([R])                                         0.22
+  slack (MET)                                         0.22
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2064,7 +2064,7 @@ Wire Load Model Mode: top
   data required time                                  2.89
   data arrival time                                  -2.67
   -----------------------------------------------------------
-  slack ([R])                                         0.22
+  slack (MET)                                         0.22
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2094,7 +2094,7 @@ Wire Load Model Mode: top
   data required time                                  2.89
   data arrival time                                  -2.67
   -----------------------------------------------------------
-  slack ([R])                                         0.22
+  slack (MET)                                         0.22
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2124,7 +2124,7 @@ Wire Load Model Mode: top
   data required time                                  2.89
   data arrival time                                  -2.67
   -----------------------------------------------------------
-  slack ([R])                                         0.22
+  slack (MET)                                         0.22
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2154,7 +2154,7 @@ Wire Load Model Mode: top
   data required time                                  2.89
   data arrival time                                  -2.67
   -----------------------------------------------------------
-  slack ([R])                                         0.22
+  slack (MET)                                         0.22
 
 
   Startpoint: FIR_REG_reg[6][5]
@@ -2192,7 +2192,7 @@ Wire Load Model Mode: top
   data required time                                                 2.89
   data arrival time                                                 -2.64
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.25
+  slack (MET)                                                        0.25
 
 
   Startpoint: FIR_REG_reg[0][3]
@@ -2232,7 +2232,7 @@ Wire Load Model Mode: top
   data required time                                                 2.89
   data arrival time                                                 -2.62
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.27
+  slack (MET)                                                        0.27
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2262,7 +2262,7 @@ Wire Load Model Mode: top
   data required time                                  2.97
   data arrival time                                  -2.68
   -----------------------------------------------------------
-  slack ([R])                                         0.28
+  slack (MET)                                         0.28
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2292,7 +2292,7 @@ Wire Load Model Mode: top
   data required time                                  2.97
   data arrival time                                  -2.68
   -----------------------------------------------------------
-  slack ([R])                                         0.28
+  slack (MET)                                         0.28
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2322,7 +2322,7 @@ Wire Load Model Mode: top
   data required time                                  2.97
   data arrival time                                  -2.68
   -----------------------------------------------------------
-  slack ([R])                                         0.28
+  slack (MET)                                         0.28
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2352,7 +2352,7 @@ Wire Load Model Mode: top
   data required time                                  2.97
   data arrival time                                  -2.68
   -----------------------------------------------------------
-  slack ([R])                                         0.28
+  slack (MET)                                         0.28
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2382,7 +2382,7 @@ Wire Load Model Mode: top
   data required time                                  2.97
   data arrival time                                  -2.68
   -----------------------------------------------------------
-  slack ([R])                                         0.28
+  slack (MET)                                         0.28
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2412,7 +2412,7 @@ Wire Load Model Mode: top
   data required time                                  2.97
   data arrival time                                  -2.68
   -----------------------------------------------------------
-  slack ([R])                                         0.28
+  slack (MET)                                         0.28
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2442,7 +2442,7 @@ Wire Load Model Mode: top
   data required time                                  2.97
   data arrival time                                  -2.68
   -----------------------------------------------------------
-  slack ([R])                                         0.28
+  slack (MET)                                         0.28
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2472,7 +2472,7 @@ Wire Load Model Mode: top
   data required time                                  2.97
   data arrival time                                  -2.68
   -----------------------------------------------------------
-  slack ([R])                                         0.28
+  slack (MET)                                         0.28
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2502,7 +2502,7 @@ Wire Load Model Mode: top
   data required time                                  2.97
   data arrival time                                  -2.68
   -----------------------------------------------------------
-  slack ([R])                                         0.28
+  slack (MET)                                         0.28
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2532,7 +2532,7 @@ Wire Load Model Mode: top
   data required time                                  2.97
   data arrival time                                  -2.68
   -----------------------------------------------------------
-  slack ([R])                                         0.28
+  slack (MET)                                         0.28
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2562,7 +2562,7 @@ Wire Load Model Mode: top
   data required time                                  2.97
   data arrival time                                  -2.68
   -----------------------------------------------------------
-  slack ([R])                                         0.28
+  slack (MET)                                         0.28
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2592,7 +2592,7 @@ Wire Load Model Mode: top
   data required time                                  2.97
   data arrival time                                  -2.68
   -----------------------------------------------------------
-  slack ([R])                                         0.28
+  slack (MET)                                         0.28
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2622,7 +2622,7 @@ Wire Load Model Mode: top
   data required time                                  2.97
   data arrival time                                  -2.68
   -----------------------------------------------------------
-  slack ([R])                                         0.28
+  slack (MET)                                         0.28
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2652,7 +2652,7 @@ Wire Load Model Mode: top
   data required time                                  2.97
   data arrival time                                  -2.68
   -----------------------------------------------------------
-  slack ([R])                                         0.28
+  slack (MET)                                         0.28
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2682,7 +2682,7 @@ Wire Load Model Mode: top
   data required time                                  2.97
   data arrival time                                  -2.68
   -----------------------------------------------------------
-  slack ([R])                                         0.28
+  slack (MET)                                         0.28
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2712,7 +2712,7 @@ Wire Load Model Mode: top
   data required time                                  2.97
   data arrival time                                  -2.68
   -----------------------------------------------------------
-  slack ([R])                                         0.29
+  slack (MET)                                         0.29
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2742,7 +2742,7 @@ Wire Load Model Mode: top
   data required time                                  2.97
   data arrival time                                  -2.68
   -----------------------------------------------------------
-  slack ([R])                                         0.29
+  slack (MET)                                         0.29
 
 
   Startpoint: FIR_REG_reg[2][0]
@@ -2786,7 +2786,7 @@ Wire Load Model Mode: top
   data required time                                                 2.89
   data arrival time                                                 -2.59
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.30
+  slack (MET)                                                        0.30
 
 
   Startpoint: FIR_REG_reg[3][6]
@@ -2829,7 +2829,7 @@ Wire Load Model Mode: top
   data required time                                                 2.89
   data arrival time                                                 -2.57
   --------------------------------------------------------------------------
-  slack ([R])                                                        0.32
+  slack (MET)                                                        0.32
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2859,7 +2859,7 @@ Wire Load Model Mode: top
   data required time                                  3.03
   data arrival time                                  -2.70
   -----------------------------------------------------------
-  slack ([R])                                         0.33
+  slack (MET)                                         0.33
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2889,7 +2889,7 @@ Wire Load Model Mode: top
   data required time                                  3.03
   data arrival time                                  -2.70
   -----------------------------------------------------------
-  slack ([R])                                         0.33
+  slack (MET)                                         0.33
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2919,7 +2919,7 @@ Wire Load Model Mode: top
   data required time                                  3.03
   data arrival time                                  -2.70
   -----------------------------------------------------------
-  slack ([R])                                         0.33
+  slack (MET)                                         0.33
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2949,7 +2949,7 @@ Wire Load Model Mode: top
   data required time                                  3.03
   data arrival time                                  -2.70
   -----------------------------------------------------------
-  slack ([R])                                         0.33
+  slack (MET)                                         0.33
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -2979,7 +2979,7 @@ Wire Load Model Mode: top
   data required time                                  3.03
   data arrival time                                  -2.70
   -----------------------------------------------------------
-  slack ([R])                                         0.33
+  slack (MET)                                         0.33
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -3009,7 +3009,7 @@ Wire Load Model Mode: top
   data required time                                  3.03
   data arrival time                                  -2.70
   -----------------------------------------------------------
-  slack ([R])                                         0.33
+  slack (MET)                                         0.33
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -3039,7 +3039,7 @@ Wire Load Model Mode: top
   data required time                                  3.03
   data arrival time                                  -2.70
   -----------------------------------------------------------
-  slack ([R])                                         0.33
+  slack (MET)                                         0.33
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -3069,7 +3069,7 @@ Wire Load Model Mode: top
   data required time                                  3.03
   data arrival time                                  -2.70
   -----------------------------------------------------------
-  slack ([R])                                         0.33
+  slack (MET)                                         0.33
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -3099,7 +3099,7 @@ Wire Load Model Mode: top
   data required time                                  3.03
   data arrival time                                  -2.70
   -----------------------------------------------------------
-  slack ([R])                                         0.33
+  slack (MET)                                         0.33
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -3129,7 +3129,7 @@ Wire Load Model Mode: top
   data required time                                  3.03
   data arrival time                                  -2.70
   -----------------------------------------------------------
-  slack ([R])                                         0.33
+  slack (MET)                                         0.33
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -3159,7 +3159,7 @@ Wire Load Model Mode: top
   data required time                                  3.03
   data arrival time                                  -2.70
   -----------------------------------------------------------
-  slack ([R])                                         0.33
+  slack (MET)                                         0.33
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -3189,7 +3189,7 @@ Wire Load Model Mode: top
   data required time                                  3.03
   data arrival time                                  -2.70
   -----------------------------------------------------------
-  slack ([R])                                         0.33
+  slack (MET)                                         0.33
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -3219,7 +3219,7 @@ Wire Load Model Mode: top
   data required time                                  3.03
   data arrival time                                  -2.70
   -----------------------------------------------------------
-  slack ([R])                                         0.33
+  slack (MET)                                         0.33
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -3249,7 +3249,7 @@ Wire Load Model Mode: top
   data required time                                  3.03
   data arrival time                                  -2.70
   -----------------------------------------------------------
-  slack ([R])                                         0.33
+  slack (MET)                                         0.33
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -3279,7 +3279,7 @@ Wire Load Model Mode: top
   data required time                                  3.03
   data arrival time                                  -2.70
   -----------------------------------------------------------
-  slack ([R])                                         0.33
+  slack (MET)                                         0.33
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -3309,7 +3309,7 @@ Wire Load Model Mode: top
   data required time                                  3.03
   data arrival time                                  -2.70
   -----------------------------------------------------------
-  slack ([R])                                         0.33
+  slack (MET)                                         0.33
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -3339,7 +3339,7 @@ Wire Load Model Mode: top
   data required time                                  3.03
   data arrival time                                  -2.70
   -----------------------------------------------------------
-  slack ([R])                                         0.33
+  slack (MET)                                         0.33
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -3369,7 +3369,7 @@ Wire Load Model Mode: top
   data required time                                  3.03
   data arrival time                                  -2.70
   -----------------------------------------------------------
-  slack ([R])                                         0.33
+  slack (MET)                                         0.33
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -3399,7 +3399,7 @@ Wire Load Model Mode: top
   data required time                                  3.03
   data arrival time                                  -2.70
   -----------------------------------------------------------
-  slack ([R])                                         0.33
+  slack (MET)                                         0.33
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -3429,7 +3429,7 @@ Wire Load Model Mode: top
   data required time                                  3.03
   data arrival time                                  -2.70
   -----------------------------------------------------------
-  slack ([R])                                         0.33
+  slack (MET)                                         0.33
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -3459,7 +3459,7 @@ Wire Load Model Mode: top
   data required time                                  3.03
   data arrival time                                  -2.70
   -----------------------------------------------------------
-  slack ([R])                                         0.33
+  slack (MET)                                         0.33
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -3489,7 +3489,7 @@ Wire Load Model Mode: top
   data required time                                  3.03
   data arrival time                                  -2.70
   -----------------------------------------------------------
-  slack ([R])                                         0.33
+  slack (MET)                                         0.33
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -3519,7 +3519,7 @@ Wire Load Model Mode: top
   data required time                                  3.03
   data arrival time                                  -2.70
   -----------------------------------------------------------
-  slack ([R])                                         0.33
+  slack (MET)                                         0.33
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -3549,7 +3549,7 @@ Wire Load Model Mode: top
   data required time                                  3.03
   data arrival time                                  -2.70
   -----------------------------------------------------------
-  slack ([R])                                         0.33
+  slack (MET)                                         0.33
 
 
   Startpoint: data_valid (input port clocked by REF_CLK)
@@ -3579,7 +3579,7 @@ Wire Load Model Mode: top
   data required time                                  3.03
   data arrival time                                  -2.70
   -----------------------------------------------------------
-  slack ([R])                                         0.33
+  slack (MET)                                         0.33
 
 
 1

@@ -14,7 +14,7 @@ An ASIC case study of a symmetric, pipelined FIR filter implemented in Verilog. 
 | Total power | **7.943 mW** | PrimeTime time-based analysis, TT at 1.2 V and 25 °C |
 | DFT scan chains | **2** | Multiplexed scan configuration |
 
-See [results and analysis scope](docs/RESULTS.md) and the [EDA report source index](reports/README.md). The original EDA report files are retained locally pending redistribution clearance.
+See [results and analysis scope](docs/RESULTS.md) and the [EDA report source index](reports/README.md). The [evidence review](reports/README.md) classifies all 38 genuine tool exports and records the permission needed for each. The source files remain local. See the [screenshot review](docs/IMAGE_SELECTION.md) for the original captures and their release status.
 
 ## RTL design and simulation
 

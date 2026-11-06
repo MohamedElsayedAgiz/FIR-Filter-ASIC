@@ -1,6 +1,6 @@
 # Results summary
 
-These values describe the completed implementation at the recorded operating conditions. The original files are retained locally and identified in the [EDA report source index](../reports/README.md).
+These values describe the completed implementation at the recorded operating conditions. The [EDA report index](../reports/README.md) links to the published tool exports.
 
 ## Post-layout timing and correlation
 
@@ -29,7 +29,7 @@ Absolute WNS difference: **2.6 ps** setup; **0.3 ps** functional hold. Functiona
 | RTL vs post-synthesis | Formality `Verification SUCCEEDED` |
 | Functional RTL vs scan-inserted netlist | Formality `Verification SUCCEEDED` with `SE=0` |
 
-The local `coverage_dft.rpt` reports **99.77% test coverage** from a tool-internal coverage-estimation phase that references deterministic ATPG. This does **not** establish a separate ATPG implementation, released test pattern set, silicon testing, or MBIST. Functional formal checking does not prove scan shifting behavior.
+The [coverage_dft.rpt](../reports/tool_exports/dft/coverage_dft.rpt) reports **99.77% test coverage** from a tool-internal coverage-estimation phase that references deterministic ATPG. This does **not** establish a separate ATPG implementation, released test pattern set, silicon testing, or MBIST. Functional formal checking does not prove scan shifting behavior.
 
 ## Synthesis stage versus scan-ready synthesis
 
@@ -78,10 +78,10 @@ The screenshot `docs/images/rtl_test_summary.png` reports 85 passing checks, zer
 
 ## Source record
 
-- Clock period and setup WNS come from PrimeTime `setup_timing.rpt`. Functional hold WNS comes from PrimeTime `hold_timing.rpt`.
-- Total and peak power come from PrimeTime `power_tt.rpt`.
-- The two-chain configuration comes from [the DFT script](../scripts/dft/dft_script.tcl). DFT rule checks and coverage are recorded in the local `coverage_dft.rpt`.
-- The correlated timing checks come from Encounter `worst_setup.rpt` and `worst_hold_functional.rpt`. The physical check counts above were reported in the project summary.
-- The local Formality point reports cover the post-synthesis and post-DFT comparisons. The project records verification success in the corresponding application logs.
+- Clock period and setup WNS come from PrimeTime [setup_timing.rpt](../reports/tool_exports/primetime/setup_timing.rpt). Functional hold WNS comes from PrimeTime [hold_timing.rpt](../reports/tool_exports/primetime/hold_timing.rpt).
+- Total and peak power come from PrimeTime [power_tt.rpt](../reports/tool_exports/primetime/power_tt.rpt).
+- The two-chain configuration comes from [the DFT script](../scripts/dft/dft_script.tcl). DFT rule checks and coverage are recorded in the [coverage_dft.rpt](../reports/tool_exports/dft/coverage_dft.rpt).
+- The correlated timing checks come from Encounter [worst_setup.rpt](../reports/tool_exports/encounter/worst_setup.rpt) and [worst_hold_functional.rpt](../reports/tool_exports/encounter/worst_hold_functional.rpt). The physical check counts above were reported in the project summary.
+- The Formality point reports cover the [post-synthesis](../reports/tool_exports/formality/post_synthesis/passing_points.rpt) and [post-DFT](../reports/tool_exports/formality/post_dft/passing_points.rpt) comparisons. The project records verification success in the corresponding application logs.
 
 PrimeTime also reported two unconstrained maximum-delay endpoints, two ports without driving cells, and 14 unannotated driverless nets. The timing results are limited to the documented checks and modes.

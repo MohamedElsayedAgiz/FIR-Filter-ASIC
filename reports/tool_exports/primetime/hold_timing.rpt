@@ -58,7 +58,7 @@ Date   : Wed Sep 30 05:03:44 2026
   data required time                                               0.3321
   data arrival time                                               -0.4309
   ------------------------------------------------------------------------------
-  slack ([R])                                                      0.0987
+  slack (MET)                                                      0.0987
 
 
   Startpoint: genblk1.genblk1.valid_pipe_reg[1]
@@ -107,7 +107,7 @@ Date   : Wed Sep 30 05:03:44 2026
   data required time                                               0.3647
   data arrival time                                               -0.4733
   ------------------------------------------------------------------------------
-  slack ([R])                                                      0.1087
+  slack (MET)                                                      0.1087
 
 
   Startpoint: FIR_REG_reg[1][1]
@@ -156,7 +156,7 @@ Date   : Wed Sep 30 05:03:44 2026
   data required time                                               0.3276
   data arrival time                                               -0.4373
   ------------------------------------------------------------------------------
-  slack ([R])                                                      0.1097
+  slack (MET)                                                      0.1097
 
 
   Startpoint: genblk1.genblk1.valid_pipe_reg[0]
@@ -205,7 +205,7 @@ Date   : Wed Sep 30 05:03:44 2026
   data required time                                               0.3628
   data arrival time                                               -0.4849
   ------------------------------------------------------------------------------
-  slack ([R])                                                      0.1222
+  slack (MET)                                                      0.1222
 
 
   Startpoint: FIR_REG_reg[1][1]
@@ -254,7 +254,7 @@ Date   : Wed Sep 30 05:03:44 2026
   data required time                                               0.3316
   data arrival time                                               -0.4557
   ------------------------------------------------------------------------------
-  slack ([R])                                                      0.1241
+  slack (MET)                                                      0.1241
 
 
   Startpoint: FIR_REG_reg[1][8]
@@ -300,7 +300,7 @@ Date   : Wed Sep 30 05:03:44 2026
   data required time                                               0.2587
   data arrival time                                               -0.3889
   ------------------------------------------------------------------------------
-  slack ([R])                                                      0.1302
+  slack (MET)                                                      0.1302
 
 
   Startpoint: FIR_REG_reg[0][11]
@@ -350,7 +350,7 @@ Date   : Wed Sep 30 05:03:44 2026
   data required time                                               0.2724
   data arrival time                                               -0.4033
   ------------------------------------------------------------------------------
-  slack ([R])                                                      0.1309
+  slack (MET)                                                      0.1309
 
 
   Startpoint: FIR_REG_reg[0][7]
@@ -400,7 +400,7 @@ Date   : Wed Sep 30 05:03:44 2026
   data required time                                               0.2722
   data arrival time                                               -0.4072
   ------------------------------------------------------------------------------
-  slack ([R])                                                      0.1350
+  slack (MET)                                                      0.1350
 
 
   Startpoint: FIR_REG_reg[0][9]
@@ -450,7 +450,7 @@ Date   : Wed Sep 30 05:03:44 2026
   data required time                                               0.2724
   data arrival time                                               -0.4124
   ------------------------------------------------------------------------------
-  slack ([R])                                                      0.1400
+  slack (MET)                                                      0.1400
 
 
   Startpoint: FIR_REG_reg[2][0]
@@ -498,7 +498,7 @@ Date   : Wed Sep 30 05:03:44 2026
   data required time                                               0.3283
   data arrival time                                               -0.4684
   ------------------------------------------------------------------------------
-  slack ([R])                                                      0.1402
+  slack (MET)                                                      0.1402
 
 
   Startpoint: FIR_REG_reg[7][7]
@@ -548,7 +548,7 @@ Date   : Wed Sep 30 05:03:44 2026
   data required time                                               0.2587
   data arrival time                                               -0.4001
   ------------------------------------------------------------------------------
-  slack ([R])                                                      0.1414
+  slack (MET)                                                      0.1414
 
 
   Startpoint: FIR_REG_reg[0][10]
@@ -598,7 +598,7 @@ Date   : Wed Sep 30 05:03:44 2026
   data required time                                               0.2724
   data arrival time                                               -0.4138
   ------------------------------------------------------------------------------
-  slack ([R])                                                      0.1414
+  slack (MET)                                                      0.1414
 
 
   Startpoint: FIR_REG_reg[7][2]
@@ -648,7 +648,7 @@ Date   : Wed Sep 30 05:03:44 2026
   data required time                                               0.2673
   data arrival time                                               -0.4160
   ------------------------------------------------------------------------------
-  slack ([R])                                                      0.1487
+  slack (MET)                                                      0.1487
 
 
   Startpoint: FIR_REG_reg[0][2]
@@ -690,7 +690,7 @@ Date   : Wed Sep 30 05:03:44 2026
   data required time                                               0.1995
   data arrival time                                               -0.3482
   ------------------------------------------------------------------------------
-  slack ([R])                                                      0.1487
+  slack (MET)                                                      0.1487
 
 
   Startpoint: FIR_REG_reg[0][13]
@@ -740,7 +740,7 @@ Date   : Wed Sep 30 05:03:44 2026
   data required time                                               0.2601
   data arrival time                                               -0.4092
   ------------------------------------------------------------------------------
-  slack ([R])                                                      0.1492
+  slack (MET)                                                      0.1492
 
 
   Startpoint: FIR_REG_reg[0][1]
@@ -782,7 +782,7 @@ Date   : Wed Sep 30 05:03:44 2026
   data required time                                               0.1957
   data arrival time                                               -0.3497
   ------------------------------------------------------------------------------
-  slack ([R])                                                      0.1540
+  slack (MET)                                                      0.1540
 
 
   Startpoint: FIR_REG_reg[2][14]
@@ -829,7 +829,7 @@ Date   : Wed Sep 30 05:03:44 2026
   data required time                                               0.3304
   data arrival time                                               -0.4860
   ------------------------------------------------------------------------------
-  slack ([R])                                                      0.1556
+  slack (MET)                                                      0.1556
 
 
   Startpoint: FIR_REG_reg[7][3]
@@ -879,7 +879,7 @@ Date   : Wed Sep 30 05:03:44 2026
   data required time                                               0.2674
   data arrival time                                               -0.4247
   ------------------------------------------------------------------------------
-  slack ([R])                                                      0.1574
+  slack (MET)                                                      0.1574
 
 
   Startpoint: FIR_REG_reg[3][15]
@@ -926,7 +926,7 @@ Date   : Wed Sep 30 05:03:44 2026
   data required time                                               0.2665
   data arrival time                                               -0.4245
   ------------------------------------------------------------------------------
-  slack ([R])                                                      0.1579
+  slack (MET)                                                      0.1579
 
 
   Startpoint: FIR_REG_reg[7][6]
@@ -976,7 +976,7 @@ Date   : Wed Sep 30 05:03:44 2026
   data required time                                               0.2648
   data arrival time                                               -0.4231
   ------------------------------------------------------------------------------
-  slack ([R])                                                      0.1583
+  slack (MET)                                                      0.1583
 
 Warning: report_timing has satisfied the max_paths criteria. There are 208 further endpoints which have paths of interest with slack less than 1000.0000 that were not considered when generating this report. (UITE-502)
 

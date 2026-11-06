@@ -1,0 +1,3056 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 100
+Design : FIR_Filter
+Version: O-2018.06-SP1
+Date   : Sun Sep 27 06:37:49 2026
+****************************************
+
+Operating Conditions: [REDACTED: LIBRARY ID; FF 1.32 V -40 C]   Library: [REDACTED: LIBRARY ID; FF 1.32 V -40 C]
+Wire Load Model Mode: top
+
+  Startpoint: genblk1.genblk1.valid_pipe_reg[0]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: genblk1.genblk1.valid_pipe_reg[1]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  genblk1.genblk1.valid_pipe_reg[0]/CK ([R]     )         0.00       0.00 r
+  genblk1.genblk1.valid_pipe_reg[0]/Q ([R]     )          0.49       0.49 f
+  genblk1.genblk1.valid_pipe_reg[1]/D ([R]     )          0.00       0.49 f
+  data arrival time                                                  0.49
+
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  genblk1.genblk1.valid_pipe_reg[1]/CK ([R]     )         0.00       0.10 r
+  library hold time                                       0.00       0.10
+  data required time                                                 0.10
+  --------------------------------------------------------------------------
+  data required time                                                 0.10
+  data arrival time                                                 -0.49
+  --------------------------------------------------------------------------
+  slack ([R])                                                        0.39
+
+
+  Startpoint: genblk1.genblk1.valid_pipe_reg[1]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: out_valid_reg
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  genblk1.genblk1.valid_pipe_reg[1]/CK ([R]     )         0.00       0.00 r
+  genblk1.genblk1.valid_pipe_reg[1]/Q ([R]     )          0.49       0.49 f
+  out_valid_reg/D ([R]     )                              0.00       0.49 f
+  data arrival time                                                  0.49
+
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  out_valid_reg/CK ([R]     )                             0.00       0.10 r
+  library hold time                                      -0.02       0.08
+  data required time                                                 0.08
+  --------------------------------------------------------------------------
+  data required time                                                 0.08
+  data arrival time                                                 -0.49
+  --------------------------------------------------------------------------
+  slack ([R])                                                        0.40
+
+
+  Startpoint: genblk1.genblk1.B_sum_2_3_reg[22]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: data_out_reg[8]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  genblk1.genblk1.B_sum_2_3_reg[22]/CK ([R]      )        0.00       0.00 r
+  genblk1.genblk1.B_sum_2_3_reg[22]/Q ([R]      )         0.29       0.29 r
+  U839/Y ([R]     )                                       0.09       0.38 f
+  U740/Y ([R]     )                                       0.08       0.46 r
+  U1180/Y ([R]     )                                      0.06       0.52 f
+  data_out_reg[8]/D ([R]     )                            0.00       0.52 f
+  data arrival time                                                  0.52
+
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  data_out_reg[8]/CK ([R]     )                           0.00       0.10 r
+  library hold time                                      -0.02       0.08
+  data required time                                                 0.08
+  --------------------------------------------------------------------------
+  data required time                                                 0.08
+  data arrival time                                                 -0.52
+  --------------------------------------------------------------------------
+  slack ([R])                                                        0.44
+
+
+  Startpoint: genblk1.genblk1.B_sum_2_3_reg[24]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: data_out_reg[10]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  genblk1.genblk1.B_sum_2_3_reg[24]/CK ([R]      )        0.00       0.00 r
+  genblk1.genblk1.B_sum_2_3_reg[24]/Q ([R]      )         0.30       0.30 r
+  U831/Y ([R]     )                                       0.09       0.39 f
+  U679/Y ([R]     )                                       0.09       0.48 r
+  U254/Y ([R]     )                                       0.06       0.54 f
+  data_out_reg[10]/D ([R]     )                           0.00       0.54 f
+  data arrival time                                                  0.54
+
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  data_out_reg[10]/CK ([R]     )                          0.00       0.10 r
+  library hold time                                      -0.02       0.08
+  data required time                                                 0.08
+  --------------------------------------------------------------------------
+  data required time                                                 0.08
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack ([R])                                                        0.46
+
+
+  Startpoint: FIR_REG_reg[4][1]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[4][1]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[4][1]/CK ([R]      )         0.00       0.00 r
+  FIR_REG_reg[4][1]/Q ([R]      )          0.32       0.32 r
+  U1205/Y ([R]   )                         0.20       0.52 r
+  FIR_REG_reg[4][1]/D ([R]      )          0.00       0.52 r
+  data arrival time                                   0.52
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[4][1]/CK ([R]      )         0.00       0.10 r
+  library hold time                       -0.06       0.04
+  data required time                                  0.04
+  -----------------------------------------------------------
+  data required time                                  0.04
+  data arrival time                                  -0.52
+  -----------------------------------------------------------
+  slack ([R])                                         0.49
+
+
+  Startpoint: FIR_REG_reg[3][1]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[3][1]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[3][1]/CK ([R]      )         0.00       0.00 r
+  FIR_REG_reg[3][1]/Q ([R]      )          0.32       0.32 r
+  U1196/Y ([R]   )                         0.20       0.52 r
+  FIR_REG_reg[3][1]/D ([R]      )          0.00       0.52 r
+  data arrival time                                   0.52
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[3][1]/CK ([R]      )         0.00       0.10 r
+  library hold time                       -0.06       0.04
+  data required time                                  0.04
+  -----------------------------------------------------------
+  data required time                                  0.04
+  data arrival time                                  -0.52
+  -----------------------------------------------------------
+  slack ([R])                                         0.49
+
+
+  Startpoint: genblk1.genblk1.B_sum_2_3_reg[26]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: data_out_reg[12]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  genblk1.genblk1.B_sum_2_3_reg[26]/CK ([R]      )        0.00       0.00 r
+  genblk1.genblk1.B_sum_2_3_reg[26]/Q ([R]      )         0.28       0.28 r
+  U1176/Y ([R]     )                                      0.13       0.41 f
+  U253/Y ([R]     )                                       0.10       0.52 r
+  U618/Y ([R]     )                                       0.05       0.57 f
+  data_out_reg[12]/D ([R]     )                           0.00       0.57 f
+  data arrival time                                                  0.57
+
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  data_out_reg[12]/CK ([R]     )                          0.00       0.10 r
+  library hold time                                      -0.02       0.08
+  data required time                                                 0.08
+  --------------------------------------------------------------------------
+  data required time                                                 0.08
+  data arrival time                                                 -0.57
+  --------------------------------------------------------------------------
+  slack ([R])                                                        0.49
+
+
+  Startpoint: FIR_REG_reg[2][0]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[2][0]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[2][0]/CK ([R]      )         0.00       0.00 r
+  FIR_REG_reg[2][0]/Q ([R]      )          0.32       0.32 r
+  U1267/Y ([R]   )                         0.21       0.52 r
+  FIR_REG_reg[2][0]/D ([R]      )          0.00       0.52 r
+  data arrival time                                   0.52
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[2][0]/CK ([R]      )         0.00       0.10 r
+  library hold time                       -0.06       0.04
+  data required time                                  0.04
+  -----------------------------------------------------------
+  data required time                                  0.04
+  data arrival time                                  -0.52
+  -----------------------------------------------------------
+  slack ([R])                                         0.49
+
+
+  Startpoint: FIR_REG_reg[5][0]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[5][0]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[5][0]/CK ([R]      )         0.00       0.00 r
+  FIR_REG_reg[5][0]/Q ([R]      )          0.32       0.32 r
+  U1268/Y ([R]   )                         0.21       0.52 r
+  FIR_REG_reg[5][0]/D ([R]      )          0.00       0.52 r
+  data arrival time                                   0.52
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[5][0]/CK ([R]      )         0.00       0.10 r
+  library hold time                       -0.06       0.04
+  data required time                                  0.04
+  -----------------------------------------------------------
+  data required time                                  0.04
+  data arrival time                                  -0.52
+  -----------------------------------------------------------
+  slack ([R])                                         0.49
+
+
+  Startpoint: FIR_REG_reg[3][1]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[2][1]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[3][1]/CK ([R]      )         0.00       0.00 r
+  FIR_REG_reg[3][1]/Q ([R]      )          0.32       0.32 r
+  U1208/Y ([R]   )                         0.21       0.53 r
+  FIR_REG_reg[2][1]/D ([R]      )          0.00       0.53 r
+  data arrival time                                   0.53
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[2][1]/CK ([R]      )         0.00       0.10 r
+  library hold time                       -0.06       0.04
+  data required time                                  0.04
+  -----------------------------------------------------------
+  data required time                                  0.04
+  data arrival time                                  -0.53
+  -----------------------------------------------------------
+  slack ([R])                                         0.49
+
+
+  Startpoint: FIR_REG_reg[5][0]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[4][0]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[5][0]/CK ([R]      )         0.00       0.00 r
+  FIR_REG_reg[5][0]/Q ([R]      )          0.32       0.32 r
+  U1263/Y ([R]   )                         0.21       0.53 r
+  FIR_REG_reg[4][0]/D ([R]      )          0.00       0.53 r
+  data arrival time                                   0.53
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[4][0]/CK ([R]      )         0.00       0.10 r
+  library hold time                       -0.06       0.04
+  data required time                                  0.04
+  -----------------------------------------------------------
+  data required time                                  0.04
+  data arrival time                                  -0.53
+  -----------------------------------------------------------
+  slack ([R])                                         0.49
+
+
+  Startpoint: FIR_REG_reg[2][0]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[1][0]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[2][0]/CK ([R]      )         0.00       0.00 r
+  FIR_REG_reg[2][0]/Q ([R]      )          0.29       0.29 f
+  U1274/Y ([R]   )                         0.29       0.58 f
+  FIR_REG_reg[1][0]/D ([R]     )           0.00       0.58 f
+  data arrival time                                   0.58
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[1][0]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.58
+  -----------------------------------------------------------
+  slack ([R])                                         0.49
+
+
+  Startpoint: FIR_REG_reg[5][1]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[5][1]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[5][1]/CK ([R]      )         0.00       0.00 r
+  FIR_REG_reg[5][1]/Q ([R]      )          0.32       0.32 r
+  U1217/Y ([R]   )                         0.21       0.53 r
+  FIR_REG_reg[5][1]/D ([R]      )          0.00       0.53 r
+  data arrival time                                   0.53
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[5][1]/CK ([R]      )         0.00       0.10 r
+  library hold time                       -0.06       0.04
+  data required time                                  0.04
+  -----------------------------------------------------------
+  data required time                                  0.04
+  data arrival time                                  -0.53
+  -----------------------------------------------------------
+  slack ([R])                                         0.49
+
+
+  Startpoint: genblk1.genblk1.B_sum_2_3_reg[28]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: data_out_reg[14]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  genblk1.genblk1.B_sum_2_3_reg[28]/CK ([R]      )        0.00       0.00 r
+  genblk1.genblk1.B_sum_2_3_reg[28]/Q ([R]      )         0.28       0.28 r
+  U1330/Y ([R]     )                                      0.13       0.41 f
+  U370/Y ([R]     )                                       0.10       0.51 r
+  U362/Y ([R]     )                                       0.06       0.58 f
+  data_out_reg[14]/D ([R]     )                           0.00       0.58 f
+  data arrival time                                                  0.58
+
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  data_out_reg[14]/CK ([R]     )                          0.00       0.10 r
+  library hold time                                      -0.02       0.08
+  data required time                                                 0.08
+  --------------------------------------------------------------------------
+  data required time                                                 0.08
+  data arrival time                                                 -0.58
+  --------------------------------------------------------------------------
+  slack ([R])                                                        0.50
+
+
+  Startpoint: FIR_REG_reg[2][1]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[1][1]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[2][1]/CK ([R]      )         0.00       0.00 r
+  FIR_REG_reg[2][1]/Q ([R]      )          0.29       0.29 f
+  U1233/Y ([R]   )                         0.29       0.59 f
+  FIR_REG_reg[1][1]/D ([R]     )           0.00       0.59 f
+  data arrival time                                   0.59
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[1][1]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.59
+  -----------------------------------------------------------
+  slack ([R])                                         0.50
+
+
+  Startpoint: genblk1.genblk1.B_sum_2_3_reg[22]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: data_out_reg[7]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  genblk1.genblk1.B_sum_2_3_reg[22]/CK ([R]      )        0.00       0.00 r
+  genblk1.genblk1.B_sum_2_3_reg[22]/Q ([R]      )         0.29       0.29 r
+  U839/Y ([R]     )                                       0.09       0.38 f
+  U1482/Y ([R]     )                                      0.08       0.46 r
+  U1483/Y ([R]    )                                       0.12       0.58 f
+  data_out_reg[7]/D ([R]     )                            0.00       0.58 f
+  data arrival time                                                  0.58
+
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  data_out_reg[7]/CK ([R]     )                           0.00       0.10 r
+  library hold time                                      -0.02       0.08
+  data required time                                                 0.08
+  --------------------------------------------------------------------------
+  data required time                                                 0.08
+  data arrival time                                                 -0.58
+  --------------------------------------------------------------------------
+  slack ([R])                                                        0.51
+
+
+  Startpoint: genblk1.genblk1.B_sum_2_3_reg[25]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: data_out_reg[11]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  genblk1.genblk1.B_sum_2_3_reg[25]/CK ([R]      )        0.00       0.00 r
+  genblk1.genblk1.B_sum_2_3_reg[25]/Q ([R]      )         0.27       0.27 f
+  U837/Y ([R]     )                                       0.08       0.35 r
+  U507/Y ([R]   )                                         0.05       0.40 f
+  U664/Y ([R]     )                                       0.11       0.51 r
+  U1500/Y ([R]    )                                       0.07       0.58 f
+  data_out_reg[11]/D ([R]     )                           0.00       0.58 f
+  data arrival time                                                  0.58
+
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  data_out_reg[11]/CK ([R]     )                          0.00       0.10 r
+  library hold time                                      -0.02       0.08
+  data required time                                                 0.08
+  --------------------------------------------------------------------------
+  data required time                                                 0.08
+  data arrival time                                                 -0.58
+  --------------------------------------------------------------------------
+  slack ([R])                                                        0.51
+
+
+  Startpoint: FIR_REG_reg[3][0]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[3][0]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[3][0]/CK ([R]      )         0.00       0.00 r
+  FIR_REG_reg[3][0]/Q ([R]      )          0.33       0.33 r
+  U1264/Y ([R]   )                         0.21       0.54 r
+  FIR_REG_reg[3][0]/D ([R]      )          0.00       0.54 r
+  data arrival time                                   0.54
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[3][0]/CK ([R]      )         0.00       0.10 r
+  library hold time                       -0.06       0.04
+  data required time                                  0.04
+  -----------------------------------------------------------
+  data required time                                  0.04
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack ([R])                                         0.51
+
+
+  Startpoint: genblk1.genblk1.B_sum_2_3_reg[29]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: data_out_reg[15]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  genblk1.genblk1.B_sum_2_3_reg[29]/CK ([R]      )        0.00       0.00 r
+  genblk1.genblk1.B_sum_2_3_reg[29]/Q ([R]      )         0.26       0.26 f
+  U1331/Y ([R]     )                                      0.10       0.36 r
+  U310/Y ([R]   )                                         0.07       0.43 f
+  U368/Y ([R]     )                                       0.10       0.53 r
+  U1504/Y ([R]    )                                       0.07       0.59 f
+  data_out_reg[15]/D ([R]     )                           0.00       0.59 f
+  data arrival time                                                  0.59
+
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  data_out_reg[15]/CK ([R]     )                          0.00       0.10 r
+  library hold time                                      -0.02       0.08
+  data required time                                                 0.08
+  --------------------------------------------------------------------------
+  data required time                                                 0.08
+  data arrival time                                                 -0.59
+  --------------------------------------------------------------------------
+  slack ([R])                                                        0.51
+
+
+  Startpoint: genblk1.genblk1.B_sum_2_3_reg[27]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: data_out_reg[13]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  genblk1.genblk1.B_sum_2_3_reg[27]/CK ([R]      )        0.00       0.00 r
+  genblk1.genblk1.B_sum_2_3_reg[27]/Q ([R]      )         0.26       0.26 f
+  U1177/Y ([R]     )                                      0.10       0.36 r
+  U309/Y ([R]   )                                         0.07       0.43 f
+  U383/Y ([R]     )                                       0.10       0.53 r
+  U1501/Y ([R]    )                                       0.07       0.59 f
+  data_out_reg[13]/D ([R]     )                           0.00       0.59 f
+  data arrival time                                                  0.59
+
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  data_out_reg[13]/CK ([R]     )                          0.00       0.10 r
+  library hold time                                      -0.02       0.08
+  data required time                                                 0.08
+  --------------------------------------------------------------------------
+  data required time                                                 0.08
+  data arrival time                                                 -0.59
+  --------------------------------------------------------------------------
+  slack ([R])                                                        0.51
+
+
+  Startpoint: genblk1.genblk1.B_sum_2_3_reg[24]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: data_out_reg[9]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  genblk1.genblk1.B_sum_2_3_reg[24]/CK ([R]      )        0.00       0.00 r
+  genblk1.genblk1.B_sum_2_3_reg[24]/Q ([R]      )         0.30       0.30 r
+  U831/Y ([R]     )                                       0.09       0.39 f
+  U1490/Y ([R]     )                                      0.09       0.47 r
+  U1491/Y ([R]    )                                       0.12       0.60 f
+  data_out_reg[9]/D ([R]     )                            0.00       0.60 f
+  data arrival time                                                  0.60
+
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  data_out_reg[9]/CK ([R]     )                           0.00       0.10 r
+  library hold time                                      -0.02       0.08
+  data required time                                                 0.08
+  --------------------------------------------------------------------------
+  data required time                                                 0.08
+  data arrival time                                                 -0.60
+  --------------------------------------------------------------------------
+  slack ([R])                                                        0.52
+
+
+  Startpoint: FIR_REG_reg[3][0]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: genblk1.genblk1.B_sum_2_3_reg[1]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  FIR_REG_reg[3][0]/CK ([R]      )                        0.00       0.00 r
+  FIR_REG_reg[3][0]/Q ([R]      )                         0.33       0.33 r
+  U950/Y ([R]     )                                       0.08       0.41 f
+  U224/Y ([R]     )                                       0.17       0.58 r
+  U295/Y ([R]     )                                       0.08       0.66 f
+  genblk1.genblk1.B_sum_2_3_reg[1]/D ([R]     )           0.00       0.66 f
+  data arrival time                                                  0.66
+
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  genblk1.genblk1.B_sum_2_3_reg[1]/CK ([R]     )          0.00       0.10 r
+  library hold time                                      -0.01       0.09
+  data required time                                                 0.09
+  --------------------------------------------------------------------------
+  data required time                                                 0.09
+  data arrival time                                                 -0.66
+  --------------------------------------------------------------------------
+  slack ([R])                                                        0.57
+
+
+  Startpoint: genblk1.genblk1.A_sum_0_1_reg[19]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: data_out_reg[4]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  genblk1.genblk1.A_sum_0_1_reg[19]/CK ([R]     )         0.00       0.00 r
+  genblk1.genblk1.A_sum_0_1_reg[19]/Q ([R]     )          0.45       0.45 r
+  U330/Y ([R]     )                                       0.08       0.53 f
+  U1477/Y ([R]     )                                      0.08       0.61 r
+  U1478/Y ([R]    )                                       0.12       0.73 f
+  data_out_reg[4]/D ([R]     )                            0.00       0.73 f
+  data arrival time                                                  0.73
+
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  data_out_reg[4]/CK ([R]     )                           0.00       0.10 r
+  library hold time                                      -0.02       0.08
+  data required time                                                 0.08
+  --------------------------------------------------------------------------
+  data required time                                                 0.08
+  data arrival time                                                 -0.73
+  --------------------------------------------------------------------------
+  slack ([R])                                                        0.65
+
+
+  Startpoint: genblk1.genblk1.B_sum_2_3_reg[21]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: data_out_reg[6]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  genblk1.genblk1.B_sum_2_3_reg[21]/CK ([R]     )         0.00       0.00 r
+  genblk1.genblk1.B_sum_2_3_reg[21]/Q ([R]     )          0.44       0.44 r
+  U842/Y ([R]     )                                       0.08       0.52 f
+  U1181/Y ([R]     )                                      0.08       0.61 r
+  U1182/Y ([R]     )                                      0.13       0.74 f
+  data_out_reg[6]/D ([R]     )                            0.00       0.74 f
+  data arrival time                                                  0.74
+
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  data_out_reg[6]/CK ([R]     )                           0.00       0.10 r
+  library hold time                                      -0.02       0.08
+  data required time                                                 0.08
+  --------------------------------------------------------------------------
+  data required time                                                 0.08
+  data arrival time                                                 -0.74
+  --------------------------------------------------------------------------
+  slack ([R])                                                        0.65
+
+
+  Startpoint: genblk1.genblk1.B_sum_2_3_reg[17]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: data_out_reg[2]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  genblk1.genblk1.B_sum_2_3_reg[17]/CK ([R]     )         0.00       0.00 r
+  genblk1.genblk1.B_sum_2_3_reg[17]/Q ([R]     )          0.44       0.44 r
+  U855/Y ([R]     )                                       0.08       0.52 f
+  U1282/Y ([R]     )                                      0.08       0.61 r
+  U1048/Y ([R]     )                                      0.13       0.74 f
+  data_out_reg[2]/D ([R]     )                            0.00       0.74 f
+  data arrival time                                                  0.74
+
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  data_out_reg[2]/CK ([R]     )                           0.00       0.10 r
+  library hold time                                      -0.02       0.08
+  data required time                                                 0.08
+  --------------------------------------------------------------------------
+  data required time                                                 0.08
+  data arrival time                                                 -0.74
+  --------------------------------------------------------------------------
+  slack ([R])                                                        0.66
+
+
+  Startpoint: FIR_REG_reg[3][3]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[3][3]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[3][3]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[3][3]/Q ([R]     )           0.40       0.40 r
+  U1201/Y ([R]   )                         0.19       0.59 r
+  FIR_REG_reg[3][3]/D ([R]     )           0.00       0.59 r
+  data arrival time                                   0.59
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[3][3]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.17      -0.07
+  data required time                                 -0.07
+  -----------------------------------------------------------
+  data required time                                 -0.07
+  data arrival time                                  -0.59
+  -----------------------------------------------------------
+  slack ([R])                                         0.66
+
+
+  Startpoint: FIR_REG_reg[2][2]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[2][2]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[2][2]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[2][2]/Q ([R]     )           0.40       0.40 r
+  U1207/Y ([R]   )                         0.19       0.59 r
+  FIR_REG_reg[2][2]/D ([R]     )           0.00       0.59 r
+  data arrival time                                   0.59
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[2][2]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.17      -0.07
+  data required time                                 -0.07
+  -----------------------------------------------------------
+  data required time                                 -0.07
+  data arrival time                                  -0.59
+  -----------------------------------------------------------
+  slack ([R])                                         0.66
+
+
+  Startpoint: FIR_REG_reg[4][3]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[4][3]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[4][3]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[4][3]/Q ([R]     )           0.40       0.40 r
+  U1199/Y ([R]   )                         0.19       0.59 r
+  FIR_REG_reg[4][3]/D ([R]     )           0.00       0.59 r
+  data arrival time                                   0.59
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[4][3]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.17      -0.07
+  data required time                                 -0.07
+  -----------------------------------------------------------
+  data required time                                 -0.07
+  data arrival time                                  -0.59
+  -----------------------------------------------------------
+  slack ([R])                                         0.66
+
+
+  Startpoint: FIR_REG_reg[3][3]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[2][3]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[3][3]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[3][3]/Q ([R]     )           0.40       0.40 r
+  U1206/Y ([R]   )                         0.19       0.60 r
+  FIR_REG_reg[2][3]/D ([R]     )           0.00       0.60 r
+  data arrival time                                   0.60
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[2][3]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.17      -0.07
+  data required time                                 -0.07
+  -----------------------------------------------------------
+  data required time                                 -0.07
+  data arrival time                                  -0.60
+  -----------------------------------------------------------
+  slack ([R])                                         0.67
+
+
+  Startpoint: genblk1.genblk1.A_sum_0_1_reg[16]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: data_out_reg[1]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  genblk1.genblk1.A_sum_0_1_reg[16]/CK ([R]     )         0.00       0.00 r
+  genblk1.genblk1.A_sum_0_1_reg[16]/Q ([R]     )          0.43       0.43 r
+  U1170/Y ([R]     )                                      0.10       0.53 f
+  U1453/Y ([R]     )                                      0.09       0.63 r
+  U1454/Y ([R]    )                                       0.12       0.75 f
+  data_out_reg[1]/D ([R]     )                            0.00       0.75 f
+  data arrival time                                                  0.75
+
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  data_out_reg[1]/CK ([R]     )                           0.00       0.10 r
+  library hold time                                      -0.02       0.08
+  data required time                                                 0.08
+  --------------------------------------------------------------------------
+  data required time                                                 0.08
+  data arrival time                                                 -0.75
+  --------------------------------------------------------------------------
+  slack ([R])                                                        0.67
+
+
+  Startpoint: genblk1.genblk1.B_sum_2_3_reg[18]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: data_out_reg[3]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  genblk1.genblk1.B_sum_2_3_reg[18]/CK ([R]     )         0.00       0.00 r
+  genblk1.genblk1.B_sum_2_3_reg[18]/Q ([R]     )          0.43       0.43 r
+  U1173/Y ([R]     )                                      0.10       0.54 f
+  U1479/Y ([R]     )                                      0.10       0.63 r
+  U1480/Y ([R]    )                                       0.12       0.75 f
+  data_out_reg[3]/D ([R]     )                            0.00       0.75 f
+  data arrival time                                                  0.75
+
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  data_out_reg[3]/CK ([R]     )                           0.00       0.10 r
+  library hold time                                      -0.02       0.08
+  data required time                                                 0.08
+  --------------------------------------------------------------------------
+  data required time                                                 0.08
+  data arrival time                                                 -0.75
+  --------------------------------------------------------------------------
+  slack ([R])                                                        0.67
+
+
+  Startpoint: FIR_REG_reg[3][2]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[3][2]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[3][2]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[3][2]/Q ([R]     )           0.41       0.41 r
+  U1213/Y ([R]   )                         0.19       0.60 r
+  FIR_REG_reg[3][2]/D ([R]     )           0.00       0.60 r
+  data arrival time                                   0.60
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[3][2]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.17      -0.07
+  data required time                                 -0.07
+  -----------------------------------------------------------
+  data required time                                 -0.07
+  data arrival time                                  -0.60
+  -----------------------------------------------------------
+  slack ([R])                                         0.67
+
+
+  Startpoint: FIR_REG_reg[5][3]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[5][3]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[5][3]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[5][3]/Q ([R]     )           0.41       0.41 r
+  U1210/Y ([R]   )                         0.19       0.60 r
+  FIR_REG_reg[5][3]/D ([R]     )           0.00       0.60 r
+  data arrival time                                   0.60
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[5][3]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.17      -0.07
+  data required time                                 -0.07
+  -----------------------------------------------------------
+  data required time                                 -0.07
+  data arrival time                                  -0.60
+  -----------------------------------------------------------
+  slack ([R])                                         0.67
+
+
+  Startpoint: genblk1.genblk1.B_sum_2_3_reg[20]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: data_out_reg[5]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  genblk1.genblk1.B_sum_2_3_reg[20]/CK ([R]     )         0.00       0.00 r
+  genblk1.genblk1.B_sum_2_3_reg[20]/Q ([R]     )          0.43       0.43 r
+  U1174/Y ([R]     )                                      0.10       0.54 f
+  U1473/Y ([R]     )                                      0.10       0.63 r
+  U1474/Y ([R]    )                                       0.12       0.75 f
+  data_out_reg[5]/D ([R]     )                            0.00       0.75 f
+  data arrival time                                                  0.75
+
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  data_out_reg[5]/CK ([R]     )                           0.00       0.10 r
+  library hold time                                      -0.02       0.08
+  data required time                                                 0.08
+  --------------------------------------------------------------------------
+  data required time                                                 0.08
+  data arrival time                                                 -0.75
+  --------------------------------------------------------------------------
+  slack ([R])                                                        0.67
+
+
+  Startpoint: FIR_REG_reg[2][2]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[1][2]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[2][2]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[2][2]/Q ([R]     )           0.40       0.40 r
+  U1232/Y ([R]   )                         0.20       0.60 r
+  FIR_REG_reg[1][2]/D ([R]     )           0.00       0.60 r
+  data arrival time                                   0.60
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[1][2]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.18      -0.08
+  data required time                                 -0.08
+  -----------------------------------------------------------
+  data required time                                 -0.08
+  data arrival time                                  -0.60
+  -----------------------------------------------------------
+  slack ([R])                                         0.67
+
+
+  Startpoint: FIR_REG_reg[2][3]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[1][3]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[2][3]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[2][3]/Q ([R]     )           0.41       0.41 r
+  U1231/Y ([R]   )                         0.20       0.60 r
+  FIR_REG_reg[1][3]/D ([R]     )           0.00       0.60 r
+  data arrival time                                   0.60
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[1][3]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.18      -0.08
+  data required time                                 -0.08
+  -----------------------------------------------------------
+  data required time                                 -0.08
+  data arrival time                                  -0.60
+  -----------------------------------------------------------
+  slack ([R])                                         0.68
+
+
+  Startpoint: genblk1.genblk1.B_sum_2_3_reg[29]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: data_out_reg[16]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  genblk1.genblk1.B_sum_2_3_reg[29]/CK ([R]      )        0.00       0.00 r
+  genblk1.genblk1.B_sum_2_3_reg[29]/Q ([R]      )         0.26       0.26 f
+  U1331/Y ([R]     )                                      0.10       0.36 r
+  U310/Y ([R]   )                                         0.07       0.43 f
+  U368/Y ([R]     )                                       0.10       0.53 r
+  U355/Y ([R]     )                                       0.08       0.61 f
+  U568/S ([R]    )                                        0.16       0.77 f
+  data_out_reg[16]/D ([R]     )                           0.00       0.77 f
+  data arrival time                                                  0.77
+
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  data_out_reg[16]/CK ([R]     )                          0.00       0.10 r
+  library hold time                                      -0.02       0.08
+  data required time                                                 0.08
+  --------------------------------------------------------------------------
+  data required time                                                 0.08
+  data arrival time                                                 -0.77
+  --------------------------------------------------------------------------
+  slack ([R])                                                        0.69
+
+
+  Startpoint: FIR_REG_reg[0][13]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[0][13]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[0][13]/CK ([R]     )         0.00       0.00 r
+  FIR_REG_reg[0][13]/Q ([R]     )          0.51       0.51 f
+  U1236/Y ([R]   )                         0.27       0.78 f
+  FIR_REG_reg[0][13]/D ([R]     )          0.00       0.78 f
+  data arrival time                                   0.78
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[0][13]/CK ([R]     )         0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.78
+  -----------------------------------------------------------
+  slack ([R])                                         0.69
+
+
+  Startpoint: FIR_REG_reg[0][12]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[0][12]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[0][12]/CK ([R]     )         0.00       0.00 r
+  FIR_REG_reg[0][12]/Q ([R]     )          0.51       0.51 f
+  U1237/Y ([R]   )                         0.27       0.78 f
+  FIR_REG_reg[0][12]/D ([R]     )          0.00       0.78 f
+  data arrival time                                   0.78
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[0][12]/CK ([R]     )         0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.78
+  -----------------------------------------------------------
+  slack ([R])                                         0.69
+
+
+  Startpoint: FIR_REG_reg[0][11]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[0][11]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[0][11]/CK ([R]     )         0.00       0.00 r
+  FIR_REG_reg[0][11]/Q ([R]     )          0.51       0.51 f
+  U1238/Y ([R]   )                         0.27       0.78 f
+  FIR_REG_reg[0][11]/D ([R]     )          0.00       0.78 f
+  data arrival time                                   0.78
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[0][11]/CK ([R]     )         0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.78
+  -----------------------------------------------------------
+  slack ([R])                                         0.69
+
+
+  Startpoint: FIR_REG_reg[0][10]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[0][10]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[0][10]/CK ([R]     )         0.00       0.00 r
+  FIR_REG_reg[0][10]/Q ([R]     )          0.51       0.51 f
+  U1484/Y ([R]   )                         0.27       0.78 f
+  FIR_REG_reg[0][10]/D ([R]     )          0.00       0.78 f
+  data arrival time                                   0.78
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[0][10]/CK ([R]     )         0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.78
+  -----------------------------------------------------------
+  slack ([R])                                         0.69
+
+
+  Startpoint: FIR_REG_reg[0][9]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[0][9]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[0][9]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[0][9]/Q ([R]     )           0.51       0.51 f
+  U1485/Y ([R]   )                         0.27       0.78 f
+  FIR_REG_reg[0][9]/D ([R]     )           0.00       0.78 f
+  data arrival time                                   0.78
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[0][9]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.78
+  -----------------------------------------------------------
+  slack ([R])                                         0.69
+
+
+  Startpoint: FIR_REG_reg[0][8]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[0][8]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[0][8]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[0][8]/Q ([R]     )           0.51       0.51 f
+  U1486/Y ([R]   )                         0.27       0.78 f
+  FIR_REG_reg[0][8]/D ([R]     )           0.00       0.78 f
+  data arrival time                                   0.78
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[0][8]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.78
+  -----------------------------------------------------------
+  slack ([R])                                         0.69
+
+
+  Startpoint: FIR_REG_reg[0][4]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[0][4]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[0][4]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[0][4]/Q ([R]     )           0.51       0.51 f
+  U1242/Y ([R]   )                         0.27       0.78 f
+  FIR_REG_reg[0][4]/D ([R]     )           0.00       0.78 f
+  data arrival time                                   0.78
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[0][4]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.78
+  -----------------------------------------------------------
+  slack ([R])                                         0.69
+
+
+  Startpoint: FIR_REG_reg[0][3]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[0][3]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[0][3]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[0][3]/Q ([R]     )           0.51       0.51 f
+  U1240/Y ([R]   )                         0.27       0.78 f
+  FIR_REG_reg[0][3]/D ([R]     )           0.00       0.78 f
+  data arrival time                                   0.78
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[0][3]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.78
+  -----------------------------------------------------------
+  slack ([R])                                         0.69
+
+
+  Startpoint: FIR_REG_reg[0][2]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[0][2]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[0][2]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[0][2]/Q ([R]     )           0.51       0.51 f
+  U1239/Y ([R]   )                         0.27       0.78 f
+  FIR_REG_reg[0][2]/D ([R]     )           0.00       0.78 f
+  data arrival time                                   0.78
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[0][2]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.78
+  -----------------------------------------------------------
+  slack ([R])                                         0.69
+
+
+  Startpoint: FIR_REG_reg[0][7]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[0][7]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[0][7]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[0][7]/Q ([R]     )           0.51       0.51 f
+  U1472/Y ([R]   )                         0.27       0.78 f
+  FIR_REG_reg[0][7]/D ([R]     )           0.00       0.78 f
+  data arrival time                                   0.78
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[0][7]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.78
+  -----------------------------------------------------------
+  slack ([R])                                         0.69
+
+
+  Startpoint: FIR_REG_reg[0][6]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[0][6]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[0][6]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[0][6]/Q ([R]     )           0.51       0.51 f
+  U1470/Y ([R]   )                         0.27       0.78 f
+  FIR_REG_reg[0][6]/D ([R]     )           0.00       0.78 f
+  data arrival time                                   0.78
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[0][6]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.78
+  -----------------------------------------------------------
+  slack ([R])                                         0.69
+
+
+  Startpoint: FIR_REG_reg[0][5]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[0][5]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[0][5]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[0][5]/Q ([R]     )           0.51       0.51 f
+  U1467/Y ([R]   )                         0.27       0.78 f
+  FIR_REG_reg[0][5]/D ([R]     )           0.00       0.78 f
+  data arrival time                                   0.78
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[0][5]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.78
+  -----------------------------------------------------------
+  slack ([R])                                         0.69
+
+
+  Startpoint: FIR_REG_reg[0][1]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[0][1]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[0][1]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[0][1]/Q ([R]     )           0.51       0.51 f
+  U1496/Y ([R]   )                         0.27       0.78 f
+  FIR_REG_reg[0][1]/D ([R]     )           0.00       0.78 f
+  data arrival time                                   0.78
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[0][1]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.78
+  -----------------------------------------------------------
+  slack ([R])                                         0.69
+
+
+  Startpoint: FIR_REG_reg[0][0]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[0][0]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[0][0]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[0][0]/Q ([R]     )           0.51       0.51 f
+  U1497/Y ([R]   )                         0.27       0.78 f
+  FIR_REG_reg[0][0]/D ([R]     )           0.00       0.78 f
+  data arrival time                                   0.78
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[0][0]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.78
+  -----------------------------------------------------------
+  slack ([R])                                         0.69
+
+
+  Startpoint: FIR_REG_reg[0][14]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[0][14]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[0][14]/CK ([R]     )         0.00       0.00 r
+  FIR_REG_reg[0][14]/Q ([R]     )          0.51       0.51 f
+  U1235/Y ([R]   )                         0.28       0.79 f
+  FIR_REG_reg[0][14]/D ([R]     )          0.00       0.79 f
+  data arrival time                                   0.79
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[0][14]/CK ([R]     )         0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.79
+  -----------------------------------------------------------
+  slack ([R])                                         0.70
+
+
+  Startpoint: FIR_REG_reg[7][11]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[7][11]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[7][11]/CK ([R]     )         0.00       0.00 r
+  FIR_REG_reg[7][11]/Q ([R]     )          0.52       0.52 f
+  U1245/Y ([R]   )                         0.28       0.80 f
+  FIR_REG_reg[7][11]/D ([R]     )          0.00       0.80 f
+  data arrival time                                   0.80
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[7][11]/CK ([R]     )         0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.80
+  -----------------------------------------------------------
+  slack ([R])                                         0.71
+
+
+  Startpoint: FIR_REG_reg[7][9]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[7][9]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[7][9]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[7][9]/Q ([R]     )           0.52       0.52 f
+  U1247/Y ([R]   )                         0.28       0.80 f
+  FIR_REG_reg[7][9]/D ([R]     )           0.00       0.80 f
+  data arrival time                                   0.80
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[7][9]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.80
+  -----------------------------------------------------------
+  slack ([R])                                         0.71
+
+
+  Startpoint: FIR_REG_reg[7][5]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[7][5]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[7][5]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[7][5]/Q ([R]     )           0.52       0.52 f
+  U1251/Y ([R]   )                         0.28       0.80 f
+  FIR_REG_reg[7][5]/D ([R]     )           0.00       0.80 f
+  data arrival time                                   0.80
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[7][5]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.80
+  -----------------------------------------------------------
+  slack ([R])                                         0.71
+
+
+  Startpoint: FIR_REG_reg[7][4]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[7][4]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[7][4]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[7][4]/Q ([R]     )           0.52       0.52 f
+  U1253/Y ([R]   )                         0.28       0.80 f
+  FIR_REG_reg[7][4]/D ([R]     )           0.00       0.80 f
+  data arrival time                                   0.80
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[7][4]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.80
+  -----------------------------------------------------------
+  slack ([R])                                         0.71
+
+
+  Startpoint: FIR_REG_reg[7][10]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[7][10]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[7][10]/CK ([R]     )         0.00       0.00 r
+  FIR_REG_reg[7][10]/Q ([R]     )          0.52       0.52 f
+  U1246/Y ([R]   )                         0.28       0.80 f
+  FIR_REG_reg[7][10]/D ([R]     )          0.00       0.80 f
+  data arrival time                                   0.80
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[7][10]/CK ([R]     )         0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.80
+  -----------------------------------------------------------
+  slack ([R])                                         0.71
+
+
+  Startpoint: FIR_REG_reg[7][8]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[7][8]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[7][8]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[7][8]/Q ([R]     )           0.52       0.52 f
+  U1248/Y ([R]   )                         0.28       0.80 f
+  FIR_REG_reg[7][8]/D ([R]     )           0.00       0.80 f
+  data arrival time                                   0.80
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[7][8]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.80
+  -----------------------------------------------------------
+  slack ([R])                                         0.71
+
+
+  Startpoint: FIR_REG_reg[7][7]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[7][7]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[7][7]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[7][7]/Q ([R]     )           0.52       0.52 f
+  U1249/Y ([R]   )                         0.28       0.80 f
+  FIR_REG_reg[7][7]/D ([R]     )           0.00       0.80 f
+  data arrival time                                   0.80
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[7][7]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.80
+  -----------------------------------------------------------
+  slack ([R])                                         0.71
+
+
+  Startpoint: FIR_REG_reg[7][6]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[7][6]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[7][6]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[7][6]/Q ([R]     )           0.52       0.52 f
+  U1250/Y ([R]   )                         0.28       0.80 f
+  FIR_REG_reg[7][6]/D ([R]     )           0.00       0.80 f
+  data arrival time                                   0.80
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[7][6]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.80
+  -----------------------------------------------------------
+  slack ([R])                                         0.71
+
+
+  Startpoint: FIR_REG_reg[7][3]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[7][3]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[7][3]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[7][3]/Q ([R]     )           0.52       0.52 f
+  U1270/Y ([R]   )                         0.28       0.80 f
+  FIR_REG_reg[7][3]/D ([R]     )           0.00       0.80 f
+  data arrival time                                   0.80
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[7][3]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.80
+  -----------------------------------------------------------
+  slack ([R])                                         0.71
+
+
+  Startpoint: FIR_REG_reg[7][2]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[7][2]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[7][2]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[7][2]/Q ([R]     )           0.52       0.52 f
+  U1273/Y ([R]   )                         0.28       0.80 f
+  FIR_REG_reg[7][2]/D ([R]     )           0.00       0.80 f
+  data arrival time                                   0.80
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[7][2]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.80
+  -----------------------------------------------------------
+  slack ([R])                                         0.71
+
+
+  Startpoint: FIR_REG_reg[7][0]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[7][0]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[7][0]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[7][0]/Q ([R]     )           0.52       0.52 f
+  U1271/Y ([R]   )                         0.28       0.80 f
+  FIR_REG_reg[7][0]/D ([R]     )           0.00       0.80 f
+  data arrival time                                   0.80
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[7][0]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.80
+  -----------------------------------------------------------
+  slack ([R])                                         0.71
+
+
+  Startpoint: FIR_REG_reg[7][12]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[7][12]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[7][12]/CK ([R]     )         0.00       0.00 r
+  FIR_REG_reg[7][12]/Q ([R]     )          0.52       0.52 f
+  U1244/Y ([R]   )                         0.28       0.80 f
+  FIR_REG_reg[7][12]/D ([R]     )          0.00       0.80 f
+  data arrival time                                   0.80
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[7][12]/CK ([R]     )         0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.80
+  -----------------------------------------------------------
+  slack ([R])                                         0.71
+
+
+  Startpoint: FIR_REG_reg[4][15]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[4][15]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[4][15]/CK ([R]     )         0.00       0.00 r
+  FIR_REG_reg[4][15]/Q ([R]     )          0.52       0.52 f
+  U1269/Y ([R]   )                         0.28       0.80 f
+  FIR_REG_reg[4][15]/D ([R]     )          0.00       0.80 f
+  data arrival time                                   0.80
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[4][15]/CK ([R]     )         0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.80
+  -----------------------------------------------------------
+  slack ([R])                                         0.71
+
+
+  Startpoint: genblk1.genblk1.A_sum_0_1_reg[14]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: data_out_reg[0]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  genblk1.genblk1.A_sum_0_1_reg[14]/CK ([R]     )         0.00       0.00 r
+  genblk1.genblk1.A_sum_0_1_reg[14]/Q ([R]     )          0.43       0.43 r
+  U1169/Y ([R]     )                                      0.09       0.52 f
+  U823/Y ([R]     )                                       0.08       0.60 r
+  U956/Y ([R]      )                                      0.06       0.66 f
+  U751/Y ([R]     )                                       0.07       0.74 r
+  U1046/Y ([R]     )                                      0.06       0.79 f
+  data_out_reg[0]/D ([R]     )                            0.00       0.79 f
+  data arrival time                                                  0.79
+
+  clock REF_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  data_out_reg[0]/CK ([R]     )                           0.00       0.10 r
+  library hold time                                      -0.02       0.08
+  data required time                                                 0.08
+  --------------------------------------------------------------------------
+  data required time                                                 0.08
+  data arrival time                                                 -0.79
+  --------------------------------------------------------------------------
+  slack ([R])                                                        0.71
+
+
+  Startpoint: FIR_REG_reg[3][15]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[3][15]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[3][15]/CK ([R]     )         0.00       0.00 r
+  FIR_REG_reg[3][15]/Q ([R]     )          0.53       0.53 f
+  U1266/Y ([R]   )                         0.28       0.81 f
+  FIR_REG_reg[3][15]/D ([R]     )          0.00       0.81 f
+  data arrival time                                   0.81
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[3][15]/CK ([R]     )         0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.81
+  -----------------------------------------------------------
+  slack ([R])                                         0.72
+
+
+  Startpoint: FIR_REG_reg[2][15]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[2][15]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[2][15]/CK ([R]     )         0.00       0.00 r
+  FIR_REG_reg[2][15]/Q ([R]     )          0.53       0.53 f
+  U1265/Y ([R]   )                         0.28       0.81 f
+  FIR_REG_reg[2][15]/D ([R]     )          0.00       0.81 f
+  data arrival time                                   0.81
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[2][15]/CK ([R]     )         0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.81
+  -----------------------------------------------------------
+  slack ([R])                                         0.72
+
+
+  Startpoint: FIR_REG_reg[5][15]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[5][15]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[5][15]/CK ([R]     )         0.00       0.00 r
+  FIR_REG_reg[5][15]/Q ([R]     )          0.53       0.53 f
+  U1262/Y ([R]   )                         0.28       0.81 f
+  FIR_REG_reg[5][15]/D ([R]     )          0.00       0.81 f
+  data arrival time                                   0.81
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[5][15]/CK ([R]     )         0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.81
+  -----------------------------------------------------------
+  slack ([R])                                         0.72
+
+
+  Startpoint: FIR_REG_reg[7][11]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[6][11]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[7][11]/CK ([R]     )         0.00       0.00 r
+  FIR_REG_reg[7][11]/Q ([R]     )          0.52       0.52 f
+  U1487/Y ([R]   )                         0.29       0.81 f
+  FIR_REG_reg[6][11]/D ([R]     )          0.00       0.81 f
+  data arrival time                                   0.81
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[6][11]/CK ([R]     )         0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.81
+  -----------------------------------------------------------
+  slack ([R])                                         0.72
+
+
+  Startpoint: FIR_REG_reg[7][10]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[6][10]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[7][10]/CK ([R]     )         0.00       0.00 r
+  FIR_REG_reg[7][10]/Q ([R]     )          0.52       0.52 f
+  U1488/Y ([R]   )                         0.29       0.81 f
+  FIR_REG_reg[6][10]/D ([R]     )          0.00       0.81 f
+  data arrival time                                   0.81
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[6][10]/CK ([R]     )         0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.81
+  -----------------------------------------------------------
+  slack ([R])                                         0.72
+
+
+  Startpoint: FIR_REG_reg[7][9]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[6][9]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[7][9]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[7][9]/Q ([R]     )           0.52       0.52 f
+  U1254/Y ([R]   )                         0.29       0.81 f
+  FIR_REG_reg[6][9]/D ([R]     )           0.00       0.81 f
+  data arrival time                                   0.81
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[6][9]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.81
+  -----------------------------------------------------------
+  slack ([R])                                         0.72
+
+
+  Startpoint: FIR_REG_reg[7][8]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[6][8]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[7][8]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[7][8]/Q ([R]     )           0.52       0.52 f
+  U1258/Y ([R]   )                         0.29       0.81 f
+  FIR_REG_reg[6][8]/D ([R]     )           0.00       0.81 f
+  data arrival time                                   0.81
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[6][8]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.81
+  -----------------------------------------------------------
+  slack ([R])                                         0.72
+
+
+  Startpoint: FIR_REG_reg[7][3]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[6][3]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[7][3]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[7][3]/Q ([R]     )           0.52       0.52 f
+  U1259/Y ([R]   )                         0.29       0.81 f
+  FIR_REG_reg[6][3]/D ([R]     )           0.00       0.81 f
+  data arrival time                                   0.81
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[6][3]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.81
+  -----------------------------------------------------------
+  slack ([R])                                         0.72
+
+
+  Startpoint: FIR_REG_reg[7][2]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[6][2]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[7][2]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[7][2]/Q ([R]     )           0.52       0.52 f
+  U1252/Y ([R]   )                         0.29       0.81 f
+  FIR_REG_reg[6][2]/D ([R]     )           0.00       0.81 f
+  data arrival time                                   0.81
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[6][2]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.81
+  -----------------------------------------------------------
+  slack ([R])                                         0.72
+
+
+  Startpoint: FIR_REG_reg[7][7]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[6][7]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[7][7]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[7][7]/Q ([R]     )           0.52       0.52 f
+  U1463/Y ([R]   )                         0.29       0.81 f
+  FIR_REG_reg[6][7]/D ([R]     )           0.00       0.81 f
+  data arrival time                                   0.81
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[6][7]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.81
+  -----------------------------------------------------------
+  slack ([R])                                         0.72
+
+
+  Startpoint: FIR_REG_reg[7][6]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[6][6]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[7][6]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[7][6]/Q ([R]     )           0.52       0.52 f
+  U1464/Y ([R]   )                         0.29       0.81 f
+  FIR_REG_reg[6][6]/D ([R]     )           0.00       0.81 f
+  data arrival time                                   0.81
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[6][6]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.81
+  -----------------------------------------------------------
+  slack ([R])                                         0.72
+
+
+  Startpoint: FIR_REG_reg[7][5]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[6][5]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[7][5]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[7][5]/Q ([R]     )           0.52       0.52 f
+  U1468/Y ([R]   )                         0.29       0.81 f
+  FIR_REG_reg[6][5]/D ([R]     )           0.00       0.81 f
+  data arrival time                                   0.81
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[6][5]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.81
+  -----------------------------------------------------------
+  slack ([R])                                         0.72
+
+
+  Startpoint: FIR_REG_reg[7][4]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[6][4]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[7][4]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[7][4]/Q ([R]     )           0.52       0.52 f
+  U1471/Y ([R]   )                         0.29       0.81 f
+  FIR_REG_reg[6][4]/D ([R]     )           0.00       0.81 f
+  data arrival time                                   0.81
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[6][4]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.81
+  -----------------------------------------------------------
+  slack ([R])                                         0.72
+
+
+  Startpoint: FIR_REG_reg[7][0]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[6][0]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[7][0]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[7][0]/Q ([R]     )           0.52       0.52 f
+  U1492/Y ([R]   )                         0.29       0.81 f
+  FIR_REG_reg[6][0]/D ([R]     )           0.00       0.81 f
+  data arrival time                                   0.81
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[6][0]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.81
+  -----------------------------------------------------------
+  slack ([R])                                         0.72
+
+
+  Startpoint: FIR_REG_reg[4][13]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[4][13]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[4][13]/CK ([R]     )         0.00       0.00 r
+  FIR_REG_reg[4][13]/Q ([R]     )          0.53       0.53 f
+  U1185/Y ([R]   )                         0.28       0.81 f
+  FIR_REG_reg[4][13]/D ([R]     )          0.00       0.81 f
+  data arrival time                                   0.81
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[4][13]/CK ([R]     )         0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.81
+  -----------------------------------------------------------
+  slack ([R])                                         0.72
+
+
+  Startpoint: FIR_REG_reg[4][12]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[4][12]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[4][12]/CK ([R]     )         0.00       0.00 r
+  FIR_REG_reg[4][12]/Q ([R]     )          0.53       0.53 f
+  U1191/Y ([R]   )                         0.28       0.81 f
+  FIR_REG_reg[4][12]/D ([R]     )          0.00       0.81 f
+  data arrival time                                   0.81
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[4][12]/CK ([R]     )         0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.81
+  -----------------------------------------------------------
+  slack ([R])                                         0.72
+
+
+  Startpoint: FIR_REG_reg[5][7]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[5][7]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[5][7]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[5][7]/Q ([R]     )           0.53       0.53 f
+  U1460/Y ([R]   )                         0.28       0.81 f
+  FIR_REG_reg[5][7]/D ([R]     )           0.00       0.81 f
+  data arrival time                                   0.81
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[5][7]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.81
+  -----------------------------------------------------------
+  slack ([R])                                         0.72
+
+
+  Startpoint: FIR_REG_reg[3][13]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[3][13]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[3][13]/CK ([R]     )         0.00       0.00 r
+  FIR_REG_reg[3][13]/Q ([R]     )          0.53       0.53 f
+  U1188/Y ([R]   )                         0.28       0.81 f
+  FIR_REG_reg[3][13]/D ([R]     )          0.00       0.81 f
+  data arrival time                                   0.81
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[3][13]/CK ([R]     )         0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.81
+  -----------------------------------------------------------
+  slack ([R])                                         0.72
+
+
+  Startpoint: FIR_REG_reg[3][12]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[3][12]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[3][12]/CK ([R]     )         0.00       0.00 r
+  FIR_REG_reg[3][12]/Q ([R]     )          0.53       0.53 f
+  U1190/Y ([R]   )                         0.28       0.81 f
+  FIR_REG_reg[3][12]/D ([R]     )          0.00       0.81 f
+  data arrival time                                   0.81
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[3][12]/CK ([R]     )         0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.81
+  -----------------------------------------------------------
+  slack ([R])                                         0.72
+
+
+  Startpoint: FIR_REG_reg[2][7]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[2][7]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[2][7]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[2][7]/Q ([R]     )           0.53       0.53 f
+  U1456/Y ([R]   )                         0.28       0.81 f
+  FIR_REG_reg[2][7]/D ([R]     )           0.00       0.81 f
+  data arrival time                                   0.81
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[2][7]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.81
+  -----------------------------------------------------------
+  slack ([R])                                         0.72
+
+
+  Startpoint: FIR_REG_reg[7][12]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[6][12]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[7][12]/CK ([R]     )         0.00       0.00 r
+  FIR_REG_reg[7][12]/Q ([R]     )          0.52       0.52 f
+  U1256/Y ([R]   )                         0.29       0.81 f
+  FIR_REG_reg[6][12]/D ([R]     )          0.00       0.81 f
+  data arrival time                                   0.81
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[6][12]/CK ([R]     )         0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.81
+  -----------------------------------------------------------
+  slack ([R])                                         0.72
+
+
+  Startpoint: FIR_REG_reg[3][14]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[3][14]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[3][14]/CK ([R]     )         0.00       0.00 r
+  FIR_REG_reg[3][14]/Q ([R]     )          0.53       0.53 f
+  U1229/Y ([R]   )                         0.28       0.82 f
+  FIR_REG_reg[3][14]/D ([R]     )          0.00       0.82 f
+  data arrival time                                   0.82
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[3][14]/CK ([R]     )         0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.82
+  -----------------------------------------------------------
+  slack ([R])                                         0.73
+
+
+  Startpoint: FIR_REG_reg[3][11]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[3][11]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[3][11]/CK ([R]     )         0.00       0.00 r
+  FIR_REG_reg[3][11]/Q ([R]     )          0.53       0.53 f
+  U1198/Y ([R]   )                         0.28       0.82 f
+  FIR_REG_reg[3][11]/D ([R]     )          0.00       0.82 f
+  data arrival time                                   0.82
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[3][11]/CK ([R]     )         0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.82
+  -----------------------------------------------------------
+  slack ([R])                                         0.73
+
+
+  Startpoint: FIR_REG_reg[3][9]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[3][9]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[3][9]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[3][9]/Q ([R]     )           0.53       0.53 f
+  U1195/Y ([R]   )                         0.28       0.82 f
+  FIR_REG_reg[3][9]/D ([R]     )           0.00       0.82 f
+  data arrival time                                   0.82
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[3][9]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.82
+  -----------------------------------------------------------
+  slack ([R])                                         0.73
+
+
+  Startpoint: FIR_REG_reg[5][6]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[5][6]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[5][6]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[5][6]/Q ([R]     )           0.53       0.53 f
+  U1450/Y ([R]   )                         0.28       0.82 f
+  FIR_REG_reg[5][6]/D ([R]     )           0.00       0.82 f
+  data arrival time                                   0.82
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[5][6]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.82
+  -----------------------------------------------------------
+  slack ([R])                                         0.73
+
+
+  Startpoint: FIR_REG_reg[4][6]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[4][6]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[4][6]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[4][6]/Q ([R]     )           0.53       0.53 f
+  U1461/Y ([R]   )                         0.28       0.82 f
+  FIR_REG_reg[4][6]/D ([R]     )           0.00       0.82 f
+  data arrival time                                   0.82
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[4][6]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.82
+  -----------------------------------------------------------
+  slack ([R])                                         0.73
+
+
+  Startpoint: FIR_REG_reg[3][7]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[3][7]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[3][7]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[3][7]/Q ([R]     )           0.53       0.53 f
+  U1445/Y ([R]   )                         0.28       0.82 f
+  FIR_REG_reg[3][7]/D ([R]     )           0.00       0.82 f
+  data arrival time                                   0.82
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[3][7]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.82
+  -----------------------------------------------------------
+  slack ([R])                                         0.73
+
+
+  Startpoint: FIR_REG_reg[2][15]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[1][15]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[2][15]/CK ([R]     )         0.00       0.00 r
+  FIR_REG_reg[2][15]/Q ([R]     )          0.53       0.53 f
+  U1495/Y ([R]   )                         0.29       0.82 f
+  FIR_REG_reg[1][15]/D ([R]     )          0.00       0.82 f
+  data arrival time                                   0.82
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[1][15]/CK ([R]     )         0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.82
+  -----------------------------------------------------------
+  slack ([R])                                         0.73
+
+
+  Startpoint: FIR_REG_reg[4][14]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[4][14]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[4][14]/CK ([R]     )         0.00       0.00 r
+  FIR_REG_reg[4][14]/Q ([R]     )          0.53       0.53 f
+  U1211/Y ([R]   )                         0.28       0.82 f
+  FIR_REG_reg[4][14]/D ([R]     )          0.00       0.82 f
+  data arrival time                                   0.82
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[4][14]/CK ([R]     )         0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.82
+  -----------------------------------------------------------
+  slack ([R])                                         0.73
+
+
+  Startpoint: FIR_REG_reg[5][2]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[5][2]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[5][2]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[5][2]/Q ([R]     )           0.53       0.53 f
+  U1219/Y ([R]   )                         0.28       0.82 f
+  FIR_REG_reg[5][2]/D ([R]     )           0.00       0.82 f
+  data arrival time                                   0.82
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[5][2]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.82
+  -----------------------------------------------------------
+  slack ([R])                                         0.73
+
+
+  Startpoint: FIR_REG_reg[4][11]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[4][11]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[4][11]/CK ([R]     )         0.00       0.00 r
+  FIR_REG_reg[4][11]/Q ([R]     )          0.53       0.53 f
+  U1203/Y ([R]   )                         0.28       0.82 f
+  FIR_REG_reg[4][11]/D ([R]     )          0.00       0.82 f
+  data arrival time                                   0.82
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[4][11]/CK ([R]     )         0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.82
+  -----------------------------------------------------------
+  slack ([R])                                         0.73
+
+
+  Startpoint: FIR_REG_reg[4][9]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[4][9]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[4][9]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[4][9]/Q ([R]     )           0.53       0.53 f
+  U1204/Y ([R]   )                         0.28       0.82 f
+  FIR_REG_reg[4][9]/D ([R]     )           0.00       0.82 f
+  data arrival time                                   0.82
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[4][9]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.82
+  -----------------------------------------------------------
+  slack ([R])                                         0.73
+
+
+  Startpoint: FIR_REG_reg[3][6]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[3][6]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[3][6]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[3][6]/Q ([R]     )           0.53       0.53 f
+  U1446/Y ([R]   )                         0.28       0.82 f
+  FIR_REG_reg[3][6]/D ([R]     )           0.00       0.82 f
+  data arrival time                                   0.82
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[3][6]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.82
+  -----------------------------------------------------------
+  slack ([R])                                         0.73
+
+
+  Startpoint: FIR_REG_reg[2][6]
+              (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[2][6]
+            (rising edge-triggered flip-flop clocked by REF_CLK)
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FIR_REG_reg[2][6]/CK ([R]     )          0.00       0.00 r
+  FIR_REG_reg[2][6]/Q ([R]     )           0.53       0.53 f
+  U1462/Y ([R]   )                         0.28       0.82 f
+  FIR_REG_reg[2][6]/D ([R]     )           0.00       0.82 f
+  data arrival time                                   0.82
+
+  clock REF_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  FIR_REG_reg[2][6]/CK ([R]     )          0.00       0.10 r
+  library hold time                       -0.01       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.82
+  -----------------------------------------------------------
+  slack ([R])                                         0.73
+
+
+1

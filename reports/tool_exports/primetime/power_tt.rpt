@@ -1,0 +1,38 @@
+****************************************
+Report : Time Based Power
+Design : FIR_Filter
+Version: O-2018.06-SP1
+Date   : Wed Sep 30 05:03:51 2026
+****************************************
+
+
+
+  Attributes
+  ----------
+      i  -  Including register clock pin internal power
+      u  -  User defined power group
+
+                        Internal  Switching  Leakage    Total
+Power Group             Power     Power      Power      Power   (     %)  Attrs
+--------------------------------------------------------------------------------
+clock_network           2.667e-03 9.327e-04 2.862e-07 3.600e-03 (45.33%)  i
+register                5.184e-04 1.726e-04 2.148e-06 6.932e-04 ( 8.73%)  
+combinational           1.956e-03 1.680e-03 1.431e-05 3.650e-03 (45.95%)  
+sequential                 0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+memory                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+io_pad                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+black_box                  0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+
+  Net Switching Power  = 2.785e-03   (35.06%)
+  Cell Internal Power  = 5.141e-03   (64.72%)
+  Cell Leakage Power   = 1.674e-05   ( 0.21%)
+                         ---------
+Total Power            = 7.943e-03  (100.00%)
+
+X Transition Power     = 7.563e-04
+Glitching Power        = 4.408e-06
+
+Peak Power             =    0.0743
+Peak Time              =   422.349
+
+1

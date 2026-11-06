@@ -1,0 +1,20 @@
+ 
+****************************************
+Report : clocks
+Design : FIR_Filter
+Version: O-2018.06-SP1
+Date   : Sun Sep 27 06:37:49 2026
+****************************************
+
+Attributes:
+    d - dont_touch_network
+    f - fix_hold
+    p - propagated_clock
+    G - generated_clock
+    g - lib_generated_clock
+
+Clock          Period   Waveform            Attrs     Sources
+--------------------------------------------------------------------------------
+REF_CLK          5.00   {0 2}               d         {clk}
+--------------------------------------------------------------------------------
+1

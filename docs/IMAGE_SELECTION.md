@@ -1,12 +1,14 @@
-# Project images
+# Original screenshot review
 
-| File | Publication decision |
-|---|---|
-| [Project cover](images/linkedin_cover.png) | Included as a project summary graphic. |
-| [RTL simulation waveform](images/rtl_simulation_waveform.png) | Included for private review. It shows project signals in the functional simulation. |
-| [RTL test summary](images/rtl_test_summary.png) | Included for private review. It records the captured functional test configuration. |
-| `synthesis_schematic.png`, `dft_stage_schematic.png`, `post_route_layout.png` | Withheld pending clearance for mapped and routed design imagery. |
-| Original Formality screenshot | Previously excluded because the desktop capture exposed local account and host details. |
-| Other original simulation console crops | Previously excluded as redundant with the test summary. |
+| Original | What it shows | Release decision |
+|---|---|---|
+| Model_Sim.png | Functional RTL waveforms and signal values | Existing [private review copy](images/rtl_simulation_waveform.png). Confirm simulator screenshot and project permissions before public use. |
+| Test_Summary.png | Project testbench console summary | Existing [private review copy](images/rtl_test_summary.png). Confirm project and lab permission for the captured test output. |
+| Test_1&2.png, Test_3&4.png, Test_5.png | Testbench console output for individual test cases | Kept local. Confirm project and lab permission for these captures. |
+| Synthesis.png | Mapped synthesis schematic | Kept local. Confirm Synopsys screenshot and lab/project rights plus mapped-cell disclosure under the technology agreement. |
+| DFT.png | DFT-stage schematic | Kept local. Confirm Synopsys screenshot and lab/project rights plus mapped scan logic disclosure under the technology agreement. |
+| Formality.png | Successful verification and compare-point view | Restricted as-is because the full desktop capture exposes account/host details. A cleared copy would also need privacy cropping or redaction plus authorization for the Synopsys GUI and compare-point data. |
+| PNR.png | Routed design view | Kept local. Confirm Cadence screenshot rights, lab/project approval and foundry or library permission to share routed geometry. |
+| STA | No standalone STA screenshot found in the available original images | The actual PrimeTime reports are indexed in the [report review](../reports/README.md). |
 
-The included images retain their original pixels. The waveform and test summary are actual project captures. Public screenshot use remains subject to the applicable permissions.
+The [project cover](images/linkedin_cover.png) is a summary graphic. The two simulation captures already present in the private repository are unchanged. No new image was uploaded.

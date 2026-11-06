@@ -1,0 +1,983 @@
+****************************************
+Report : timing
+	-path_type full_clock_expanded
+	-delay_type min
+	-slack_lesser_than 1000.0000
+	-max_paths 20
+	-sort_by slack
+Design : FIR_Filter
+Version: O-2018.06-SP1
+Date   : Wed Sep 30 05:03:44 2026
+****************************************
+
+
+  Startpoint: FIR_REG_reg[2][15]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[1][15]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Last common pin: clk
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I2/Y ([R]       )                             0.0223 &   0.0419 r
+  clk__L3_I3/Y ([R]       )                             0.0213 &   0.0632 f
+  clk__L4_I5/Y ([R]       )                             0.0196 &   0.0828 r
+  clk__L5_I1/Y ([R]       )                             0.0265 &   0.1093 f
+  clk__L6_I1/Y ([R]       )                             0.0257 &   0.1349 r
+  clk__L7_I2/Y ([R]       )                             0.0252 &   0.1602 f
+  clk__L8_I9/Y ([R]       )                             0.0331 &   0.1932 r
+  FIR_REG_reg[2][15]/CK ([R]       )                    0.0037 &   0.1970 r
+  FIR_REG_reg[2][15]/Q ([R]       )                     0.1576 &   0.3546 r
+  U2237/Y ([R]   )                                      0.0762 &   0.4308 r
+  FIR_REG_reg[1][15]/D ([R]       )                     0.0001 &   0.4309 r
+  data arrival time                                                0.4309
+
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I0/Y ([R]   )                                 0.0465 &   0.0661 f
+  clk__L3_I0/Y ([R]       )                             0.0582 &   0.1242 f
+  clk__L4_I0/Y ([R]       )                             0.0251 &   0.1493 r
+  clk__L5_I0/Y ([R]       )                             0.0240 &   0.1733 f
+  clk__L6_I0/Y ([R]       )                             0.0299 &   0.2033 r
+  clk__L7_I0/Y ([R]       )                             0.0379 &   0.2411 f
+  clk__L8_I2/Y ([R]       )                             0.0286 &   0.2697 r
+  FIR_REG_reg[1][15]/CK ([R]       )                    0.0034 &   0.2731 r
+  clock reconvergence pessimism                         0.0000     0.2731
+  clock uncertainty                                     0.1000     0.3731
+  library hold time                                    -0.0410     0.3321
+  data required time                                               0.3321
+  ------------------------------------------------------------------------------
+  data required time                                               0.3321
+  data arrival time                                               -0.4309
+  ------------------------------------------------------------------------------
+  slack ([R])                                                      0.0987
+
+
+  Startpoint: genblk1.genblk1.valid_pipe_reg[1]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: out_valid_reg
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Last common pin: clk
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I0/Y ([R]   )                                 0.0465 &   0.0660 f
+  clk__L3_I0/Y ([R]       )                             0.0582 &   0.1242 f
+  clk__L4_I0/Y ([R]       )                             0.0251 &   0.1493 r
+  clk__L5_I0/Y ([R]       )                             0.0240 &   0.1733 f
+  clk__L6_I0/Y ([R]       )                             0.0296 &   0.2030 r
+  clk__L7_I1/Y ([R]       )                             0.0404 &   0.2433 f
+  clk__L8_I4/Y ([R]       )                             0.0281 &   0.2715 r
+  genblk1.genblk1.valid_pipe_reg[1]/CK ([R]     )       0.0060 &   0.2774 r
+  genblk1.genblk1.valid_pipe_reg[1]/Q ([R]     )        0.1959 &   0.4733 f
+  out_valid_reg/D ([R]     )                            0.0001 &   0.4733 f
+  data arrival time                                                0.4733
+
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I0/Y ([R]   )                                 0.0465 &   0.0661 f
+  clk__L3_I0/Y ([R]       )                             0.0582 &   0.1242 f
+  clk__L4_I0/Y ([R]       )                             0.0251 &   0.1493 r
+  clk__L5_I0/Y ([R]       )                             0.0240 &   0.1733 f
+  clk__L6_I0/Y ([R]       )                             0.0299 &   0.2033 r
+  clk__L7_I1/Y ([R]       )                             0.0404 &   0.2437 f
+  clk__L8_I4/Y ([R]       )                             0.0281 &   0.2718 r
+  out_valid_reg/CK ([R]     )                           0.0062 &   0.2779 r
+  clock reconvergence pessimism                         0.0000     0.2779
+  clock uncertainty                                     0.1000     0.3779
+  library hold time                                    -0.0133     0.3647
+  data required time                                               0.3647
+  ------------------------------------------------------------------------------
+  data required time                                               0.3647
+  data arrival time                                               -0.4733
+  ------------------------------------------------------------------------------
+  slack ([R])                                                      0.1087
+
+
+  Startpoint: FIR_REG_reg[1][1]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: genblk1.genblk1.A_sum_0_1_reg[1]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Last common pin: clk
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I1/Y ([R]       )                             0.0382 &   0.0577 r
+  clk__L3_I1/Y ([R]       )                             0.0269 &   0.0846 f
+  clk__L4_I1/Y ([R]       )                             0.0371 &   0.1217 r
+  FIR_REG_reg[1][1]/CK ([R]       )                     0.0008 &   0.1225 r
+  FIR_REG_reg[1][1]/Q ([R]       )                      0.1222 &   0.2447 r
+  FE_OFC22_FIR_REG_1__1_/Y ([R]    )                    0.0630 &   0.3077 r
+  U371/Y ([R]     )                                     0.0362 &   0.3439 f
+  U2448/Y ([R]     )                                    0.0561 &   0.4000 r
+  U2447/Y ([R]    )                                     0.0372 &   0.4372 f
+  genblk1.genblk1.A_sum_0_1_reg[1]/D ([R]       )       0.0001 &   0.4373 f
+  data arrival time                                                0.4373
+
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I0/Y ([R]   )                                 0.0465 &   0.0661 f
+  clk__L3_I0/Y ([R]       )                             0.0582 &   0.1242 f
+  clk__L4_I0/Y ([R]       )                             0.0251 &   0.1493 r
+  clk__L5_I0/Y ([R]       )                             0.0240 &   0.1733 f
+  clk__L6_I0/Y ([R]       )                             0.0299 &   0.2033 r
+  clk__L7_I0/Y ([R]       )                             0.0379 &   0.2411 f
+  clk__L8_I2/Y ([R]       )                             0.0286 &   0.2697 r
+  genblk1.genblk1.A_sum_0_1_reg[1]/CK ([R]       )      0.0044 &   0.2741 r
+  clock reconvergence pessimism                         0.0000     0.2741
+  clock uncertainty                                     0.1000     0.3741
+  library hold time                                    -0.0466     0.3276
+  data required time                                               0.3276
+  ------------------------------------------------------------------------------
+  data required time                                               0.3276
+  data arrival time                                               -0.4373
+  ------------------------------------------------------------------------------
+  slack ([R])                                                      0.1097
+
+
+  Startpoint: genblk1.genblk1.valid_pipe_reg[0]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: genblk1.genblk1.valid_pipe_reg[1]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Last common pin: clk
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I0/Y ([R]   )                                 0.0465 &   0.0660 f
+  clk__L3_I0/Y ([R]       )                             0.0582 &   0.1242 f
+  clk__L4_I0/Y ([R]       )                             0.0251 &   0.1493 r
+  clk__L5_I0/Y ([R]       )                             0.0240 &   0.1733 f
+  clk__L6_I0/Y ([R]       )                             0.0296 &   0.2030 r
+  clk__L7_I0/Y ([R]       )                             0.0379 &   0.2408 f
+  clk__L8_I2/Y ([R]       )                             0.0286 &   0.2694 r
+  genblk1.genblk1.valid_pipe_reg[0]/CK ([R]      )      0.0021 &   0.2715 r
+  genblk1.genblk1.valid_pipe_reg[0]/Q ([R]      )       0.2115 &   0.4829 f
+  genblk1.genblk1.valid_pipe_reg[1]/D ([R]     )        0.0020 &   0.4849 f
+  data arrival time                                                0.4849
+
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I0/Y ([R]   )                                 0.0465 &   0.0661 f
+  clk__L3_I0/Y ([R]       )                             0.0582 &   0.1242 f
+  clk__L4_I0/Y ([R]       )                             0.0251 &   0.1493 r
+  clk__L5_I0/Y ([R]       )                             0.0240 &   0.1733 f
+  clk__L6_I0/Y ([R]       )                             0.0299 &   0.2033 r
+  clk__L7_I1/Y ([R]       )                             0.0404 &   0.2437 f
+  clk__L8_I4/Y ([R]       )                             0.0281 &   0.2718 r
+  genblk1.genblk1.valid_pipe_reg[1]/CK ([R]     )       0.0060 &   0.2777 r
+  clock reconvergence pessimism                         0.0000     0.2777
+  clock uncertainty                                     0.1000     0.3777
+  library hold time                                    -0.0150     0.3628
+  data required time                                               0.3628
+  ------------------------------------------------------------------------------
+  data required time                                               0.3628
+  data arrival time                                               -0.4849
+  ------------------------------------------------------------------------------
+  slack ([R])                                                      0.1222
+
+
+  Startpoint: FIR_REG_reg[1][1]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: genblk1.genblk1.A_sum_0_1_reg[2]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Last common pin: clk
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I1/Y ([R]       )                             0.0382 &   0.0577 r
+  clk__L3_I1/Y ([R]       )                             0.0269 &   0.0846 f
+  clk__L4_I1/Y ([R]       )                             0.0371 &   0.1217 r
+  FIR_REG_reg[1][1]/CK ([R]       )                     0.0008 &   0.1225 r
+  FIR_REG_reg[1][1]/Q ([R]       )                      0.1058 &   0.2283 f
+  FE_OFC22_FIR_REG_1__1_/Y ([R]    )                    0.0616 &   0.2899 f
+  U371/Y ([R]     )                                     0.0490 &   0.3389 r
+  U2320/Y ([R]    )                                     0.0587 &   0.3975 r
+  U2450/Y ([R]    )                                     0.0581 &   0.4556 f
+  genblk1.genblk1.A_sum_0_1_reg[2]/D ([R]       )       0.0001 &   0.4557 f
+  data arrival time                                                0.4557
+
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I0/Y ([R]   )                                 0.0465 &   0.0661 f
+  clk__L3_I0/Y ([R]       )                             0.0582 &   0.1242 f
+  clk__L4_I0/Y ([R]       )                             0.0251 &   0.1493 r
+  clk__L5_I0/Y ([R]       )                             0.0240 &   0.1733 f
+  clk__L6_I0/Y ([R]       )                             0.0299 &   0.2033 r
+  clk__L7_I0/Y ([R]       )                             0.0379 &   0.2411 f
+  clk__L8_I1/Y ([R]       )                             0.0285 &   0.2696 r
+  genblk1.genblk1.A_sum_0_1_reg[2]/CK ([R]       )      0.0064 &   0.2760 r
+  clock reconvergence pessimism                         0.0000     0.2760
+  clock uncertainty                                     0.1000     0.3760
+  library hold time                                    -0.0445     0.3316
+  data required time                                               0.3316
+  ------------------------------------------------------------------------------
+  data required time                                               0.3316
+  data arrival time                                               -0.4557
+  ------------------------------------------------------------------------------
+  slack ([R])                                                      0.1241
+
+
+  Startpoint: FIR_REG_reg[1][8]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[0][8]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Last common pin: clk
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I1/Y ([R]       )                             0.0382 &   0.0577 r
+  clk__L3_I2/Y ([R]       )                             0.0289 &   0.0866 f
+  clk__L4_I3/Y ([R]       )                             0.0321 &   0.1186 r
+  FIR_REG_reg[1][8]/CK ([R]       )                     0.0042 &   0.1229 r
+  FIR_REG_reg[1][8]/Q ([R]       )                      0.1858 &   0.3087 r
+  U2218/Y ([R]   )                                      0.0801 &   0.3888 r
+  FIR_REG_reg[0][8]/D ([R]       )                      0.0001 &   0.3889 r
+  data arrival time                                                0.3889
+
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I2/Y ([R]       )                             0.0231 &   0.0426 r
+  clk__L3_I3/Y ([R]       )                             0.0214 &   0.0641 f
+  clk__L4_I5/Y ([R]       )                             0.0196 &   0.0837 r
+  clk__L5_I1/Y ([R]       )                             0.0272 &   0.1109 f
+  clk__L6_I1/Y ([R]       )                             0.0264 &   0.1374 r
+  clk__L7_I2/Y ([R]       )                             0.0253 &   0.1627 f
+  clk__L8_I8/Y ([R]       )                             0.0329 &   0.1956 r
+  FIR_REG_reg[0][8]/CK ([R]       )                     0.0034 &   0.1989 r
+  clock reconvergence pessimism                         0.0000     0.1989
+  clock uncertainty                                     0.1000     0.2989
+  library hold time                                    -0.0403     0.2587
+  data required time                                               0.2587
+  ------------------------------------------------------------------------------
+  data required time                                               0.2587
+  data arrival time                                               -0.3889
+  ------------------------------------------------------------------------------
+  slack ([R])                                                      0.1302
+
+
+  Startpoint: FIR_REG_reg[0][11]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[0][11]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Last common pin: clk
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I2/Y ([R]       )                             0.0223 &   0.0419 r
+  clk__L3_I3/Y ([R]       )                             0.0213 &   0.0632 f
+  clk__L4_I5/Y ([R]       )                             0.0196 &   0.0828 r
+  clk__L5_I1/Y ([R]       )                             0.0265 &   0.1093 f
+  clk__L6_I1/Y ([R]       )                             0.0257 &   0.1349 r
+  clk__L7_I2/Y ([R]       )                             0.0252 &   0.1602 f
+  clk__L8_I9/Y ([R]       )                             0.0331 &   0.1932 r
+  FIR_REG_reg[0][11]/CK ([R]       )                    0.0100 &   0.2033 r
+  FIR_REG_reg[0][11]/Q ([R]       )                     0.1262 &   0.3294 r
+  U2217/Y ([R]   )                                      0.0738 &   0.4032 r
+  FIR_REG_reg[0][11]/D ([R]       )                     0.0001 &   0.4033 r
+  data arrival time                                                0.4033
+
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I2/Y ([R]       )                             0.0231 &   0.0426 r
+  clk__L3_I3/Y ([R]       )                             0.0214 &   0.0641 f
+  clk__L4_I5/Y ([R]       )                             0.0196 &   0.0837 r
+  clk__L5_I1/Y ([R]       )                             0.0272 &   0.1109 f
+  clk__L6_I1/Y ([R]       )                             0.0264 &   0.1374 r
+  clk__L7_I2/Y ([R]       )                             0.0253 &   0.1627 f
+  clk__L8_I9/Y ([R]       )                             0.0335 &   0.1962 r
+  FIR_REG_reg[0][11]/CK ([R]       )                    0.0100 &   0.2062 r
+  clock reconvergence pessimism                         0.0000     0.2062
+  clock uncertainty                                     0.1000     0.3062
+  library hold time                                    -0.0338     0.2724
+  data required time                                               0.2724
+  ------------------------------------------------------------------------------
+  data required time                                               0.2724
+  data arrival time                                               -0.4033
+  ------------------------------------------------------------------------------
+  slack ([R])                                                      0.1309
+
+
+  Startpoint: FIR_REG_reg[0][7]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[0][7]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Last common pin: clk
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I2/Y ([R]       )                             0.0223 &   0.0419 r
+  clk__L3_I3/Y ([R]       )                             0.0213 &   0.0632 f
+  clk__L4_I5/Y ([R]       )                             0.0196 &   0.0828 r
+  clk__L5_I1/Y ([R]       )                             0.0265 &   0.1093 f
+  clk__L6_I1/Y ([R]       )                             0.0257 &   0.1349 r
+  clk__L7_I2/Y ([R]       )                             0.0252 &   0.1602 f
+  clk__L8_I9/Y ([R]       )                             0.0331 &   0.1932 r
+  FIR_REG_reg[0][7]/CK ([R]       )                     0.0099 &   0.2031 r
+  FIR_REG_reg[0][7]/Q ([R]       )                      0.1293 &   0.3324 r
+  U2274/Y ([R]   )                                      0.0747 &   0.4071 r
+  FIR_REG_reg[0][7]/D ([R]       )                      0.0001 &   0.4072 r
+  data arrival time                                                0.4072
+
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I2/Y ([R]       )                             0.0231 &   0.0426 r
+  clk__L3_I3/Y ([R]       )                             0.0214 &   0.0641 f
+  clk__L4_I5/Y ([R]       )                             0.0196 &   0.0837 r
+  clk__L5_I1/Y ([R]       )                             0.0272 &   0.1109 f
+  clk__L6_I1/Y ([R]       )                             0.0264 &   0.1374 r
+  clk__L7_I2/Y ([R]       )                             0.0253 &   0.1627 f
+  clk__L8_I9/Y ([R]       )                             0.0335 &   0.1962 r
+  FIR_REG_reg[0][7]/CK ([R]       )                     0.0099 &   0.2060 r
+  clock reconvergence pessimism                         0.0000     0.2060
+  clock uncertainty                                     0.1000     0.3060
+  library hold time                                    -0.0338     0.2722
+  data required time                                               0.2722
+  ------------------------------------------------------------------------------
+  data required time                                               0.2722
+  data arrival time                                               -0.4072
+  ------------------------------------------------------------------------------
+  slack ([R])                                                      0.1350
+
+
+  Startpoint: FIR_REG_reg[0][9]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[0][9]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Last common pin: clk
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I2/Y ([R]       )                             0.0223 &   0.0419 r
+  clk__L3_I3/Y ([R]       )                             0.0213 &   0.0632 f
+  clk__L4_I5/Y ([R]       )                             0.0196 &   0.0828 r
+  clk__L5_I1/Y ([R]       )                             0.0265 &   0.1093 f
+  clk__L6_I1/Y ([R]       )                             0.0257 &   0.1349 r
+  clk__L7_I2/Y ([R]       )                             0.0252 &   0.1602 f
+  clk__L8_I9/Y ([R]       )                             0.0331 &   0.1932 r
+  FIR_REG_reg[0][9]/CK ([R]       )                     0.0099 &   0.2031 r
+  FIR_REG_reg[0][9]/Q ([R]       )                      0.1344 &   0.3376 r
+  U2219/Y ([R]   )                                      0.0747 &   0.4123 r
+  FIR_REG_reg[0][9]/D ([R]       )                      0.0001 &   0.4124 r
+  data arrival time                                                0.4124
+
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I2/Y ([R]       )                             0.0231 &   0.0426 r
+  clk__L3_I3/Y ([R]       )                             0.0214 &   0.0641 f
+  clk__L4_I5/Y ([R]       )                             0.0196 &   0.0837 r
+  clk__L5_I1/Y ([R]       )                             0.0272 &   0.1109 f
+  clk__L6_I1/Y ([R]       )                             0.0264 &   0.1374 r
+  clk__L7_I2/Y ([R]       )                             0.0253 &   0.1627 f
+  clk__L8_I9/Y ([R]       )                             0.0335 &   0.1962 r
+  FIR_REG_reg[0][9]/CK ([R]       )                     0.0099 &   0.2061 r
+  clock reconvergence pessimism                         0.0000     0.2061
+  clock uncertainty                                     0.1000     0.3061
+  library hold time                                    -0.0337     0.2724
+  data required time                                               0.2724
+  ------------------------------------------------------------------------------
+  data required time                                               0.2724
+  data arrival time                                               -0.4124
+  ------------------------------------------------------------------------------
+  slack ([R])                                                      0.1400
+
+
+  Startpoint: FIR_REG_reg[2][0]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: genblk1.genblk1.B_sum_2_3_reg[1]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Last common pin: clk
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I1/Y ([R]       )                             0.0382 &   0.0577 r
+  clk__L3_I1/Y ([R]       )                             0.0269 &   0.0846 f
+  clk__L4_I2/Y ([R]       )                             0.0388 &   0.1235 r
+  FIR_REG_reg[2][0]/CK ([R]       )                     0.0043 &   0.1278 r
+  FIR_REG_reg[2][0]/Q ([R]       )                      0.1331 &   0.2609 f
+  FE_OCPC117_FIR_REG_2__0_/Y ([R]    )                  0.0680 &   0.3288 f
+  FE_RC_275_0/Y ([R]     )                              0.0798 &   0.4086 r
+  U1842/Y ([R]     )                                    0.0598 &   0.4684 f
+  genblk1.genblk1.B_sum_2_3_reg[1]/D ([R]       )       0.0000 &   0.4684 f
+  data arrival time                                                0.4684
+
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I0/Y ([R]   )                                 0.0465 &   0.0661 f
+  clk__L3_I0/Y ([R]       )                             0.0582 &   0.1242 f
+  clk__L4_I0/Y ([R]       )                             0.0251 &   0.1493 r
+  clk__L5_I0/Y ([R]       )                             0.0240 &   0.1733 f
+  clk__L6_I0/Y ([R]       )                             0.0299 &   0.2033 r
+  clk__L7_I0/Y ([R]       )                             0.0379 &   0.2411 f
+  clk__L8_I2/Y ([R]       )                             0.0286 &   0.2697 r
+  genblk1.genblk1.B_sum_2_3_reg[1]/CK ([R]       )      0.0041 &   0.2738 r
+  clock reconvergence pessimism                         0.0000     0.2738
+  clock uncertainty                                     0.1000     0.3738
+  library hold time                                    -0.0456     0.3283
+  data required time                                               0.3283
+  ------------------------------------------------------------------------------
+  data required time                                               0.3283
+  data arrival time                                               -0.4684
+  ------------------------------------------------------------------------------
+  slack ([R])                                                      0.1402
+
+
+  Startpoint: FIR_REG_reg[7][7]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[6][7]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Last common pin: clk
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I2/Y ([R]       )                             0.0223 &   0.0419 r
+  clk__L3_I3/Y ([R]       )                             0.0213 &   0.0632 f
+  clk__L4_I5/Y ([R]       )                             0.0196 &   0.0828 r
+  clk__L5_I1/Y ([R]       )                             0.0265 &   0.1093 f
+  clk__L6_I1/Y ([R]       )                             0.0257 &   0.1349 r
+  clk__L7_I2/Y ([R]       )                             0.0252 &   0.1602 f
+  clk__L8_I8/Y ([R]       )                             0.0323 &   0.1925 r
+  FIR_REG_reg[7][7]/CK ([R]       )                     0.0053 &   0.1978 r
+  FIR_REG_reg[7][7]/Q ([R]       )                      0.1380 &   0.3357 r
+  U2279/Y ([R]   )                                      0.0643 &   0.4001 r
+  FIR_REG_reg[6][7]/D ([R]       )                      0.0000 &   0.4001 r
+  data arrival time                                                0.4001
+
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I2/Y ([R]       )                             0.0231 &   0.0426 r
+  clk__L3_I3/Y ([R]       )                             0.0214 &   0.0641 f
+  clk__L4_I5/Y ([R]       )                             0.0196 &   0.0837 r
+  clk__L5_I1/Y ([R]       )                             0.0272 &   0.1109 f
+  clk__L6_I1/Y ([R]       )                             0.0264 &   0.1374 r
+  clk__L7_I2/Y ([R]       )                             0.0253 &   0.1627 f
+  clk__L8_I8/Y ([R]       )                             0.0329 &   0.1956 r
+  FIR_REG_reg[6][7]/CK ([R]       )                     0.0030 &   0.1986 r
+  clock reconvergence pessimism                         0.0000     0.1986
+  clock uncertainty                                     0.1000     0.2986
+  library hold time                                    -0.0399     0.2587
+  data required time                                               0.2587
+  ------------------------------------------------------------------------------
+  data required time                                               0.2587
+  data arrival time                                               -0.4001
+  ------------------------------------------------------------------------------
+  slack ([R])                                                      0.1414
+
+
+  Startpoint: FIR_REG_reg[0][10]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[0][10]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Last common pin: clk
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I2/Y ([R]       )                             0.0223 &   0.0419 r
+  clk__L3_I3/Y ([R]       )                             0.0213 &   0.0632 f
+  clk__L4_I5/Y ([R]       )                             0.0196 &   0.0828 r
+  clk__L5_I1/Y ([R]       )                             0.0265 &   0.1093 f
+  clk__L6_I1/Y ([R]       )                             0.0257 &   0.1349 r
+  clk__L7_I2/Y ([R]       )                             0.0252 &   0.1602 f
+  clk__L8_I9/Y ([R]       )                             0.0331 &   0.1932 r
+  FIR_REG_reg[0][10]/CK ([R]       )                    0.0101 &   0.2033 r
+  FIR_REG_reg[0][10]/Q ([R]       )                     0.1348 &   0.3381 r
+  U2211/Y ([R]   )                                      0.0757 &   0.4138 r
+  FIR_REG_reg[0][10]/D ([R]       )                     0.0001 &   0.4138 r
+  data arrival time                                                0.4138
+
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I2/Y ([R]       )                             0.0231 &   0.0426 r
+  clk__L3_I3/Y ([R]       )                             0.0214 &   0.0641 f
+  clk__L4_I5/Y ([R]       )                             0.0196 &   0.0837 r
+  clk__L5_I1/Y ([R]       )                             0.0272 &   0.1109 f
+  clk__L6_I1/Y ([R]       )                             0.0264 &   0.1374 r
+  clk__L7_I2/Y ([R]       )                             0.0253 &   0.1627 f
+  clk__L8_I9/Y ([R]       )                             0.0335 &   0.1962 r
+  FIR_REG_reg[0][10]/CK ([R]       )                    0.0100 &   0.2062 r
+  clock reconvergence pessimism                         0.0000     0.2062
+  clock uncertainty                                     0.1000     0.3062
+  library hold time                                    -0.0338     0.2724
+  data required time                                               0.2724
+  ------------------------------------------------------------------------------
+  data required time                                               0.2724
+  data arrival time                                               -0.4138
+  ------------------------------------------------------------------------------
+  slack ([R])                                                      0.1414
+
+
+  Startpoint: FIR_REG_reg[7][2]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[7][2]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Last common pin: clk
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I2/Y ([R]       )                             0.0223 &   0.0419 r
+  clk__L3_I3/Y ([R]       )                             0.0213 &   0.0632 f
+  clk__L4_I5/Y ([R]       )                             0.0196 &   0.0828 r
+  clk__L5_I1/Y ([R]       )                             0.0265 &   0.1093 f
+  clk__L6_I1/Y ([R]       )                             0.0257 &   0.1349 r
+  clk__L7_I2/Y ([R]       )                             0.0252 &   0.1602 f
+  clk__L8_I8/Y ([R]       )                             0.0323 &   0.1925 r
+  FIR_REG_reg[7][2]/CK ([R]       )                     0.0066 &   0.1991 r
+  FIR_REG_reg[7][2]/Q ([R]       )                      0.1293 &   0.3284 r
+  U2223/Y ([R]   )                                      0.0876 &   0.4160 r
+  FIR_REG_reg[7][2]/D ([R]       )                      0.0000 &   0.4160 r
+  data arrival time                                                0.4160
+
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I2/Y ([R]       )                             0.0231 &   0.0426 r
+  clk__L3_I3/Y ([R]       )                             0.0214 &   0.0641 f
+  clk__L4_I5/Y ([R]       )                             0.0196 &   0.0837 r
+  clk__L5_I1/Y ([R]       )                             0.0272 &   0.1109 f
+  clk__L6_I1/Y ([R]       )                             0.0264 &   0.1374 r
+  clk__L7_I2/Y ([R]       )                             0.0253 &   0.1627 f
+  clk__L8_I8/Y ([R]       )                             0.0329 &   0.1956 r
+  FIR_REG_reg[7][2]/CK ([R]       )                     0.0066 &   0.2022 r
+  clock reconvergence pessimism                         0.0000     0.2022
+  clock uncertainty                                     0.1000     0.3022
+  library hold time                                    -0.0348     0.2673
+  data required time                                               0.2673
+  ------------------------------------------------------------------------------
+  data required time                                               0.2673
+  data arrival time                                               -0.4160
+  ------------------------------------------------------------------------------
+  slack ([R])                                                      0.1487
+
+
+  Startpoint: FIR_REG_reg[0][2]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[0][2]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Last common pin: clk__L2_I1/Y
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I1/Y ([R]       )                             0.0382 &   0.0577 r
+  clk__L3_I1/Y ([R]       )                             0.0269 &   0.0846 f
+  clk__L4_I2/Y ([R]       )                             0.0388 &   0.1235 r
+  FIR_REG_reg[0][2]/CK ([R]       )                     0.0086 &   0.1321 r
+  FIR_REG_reg[0][2]/Q ([R]       )                      0.1254 &   0.2576 r
+  U2244/Y ([R]   )                                      0.0906 &   0.3482 r
+  FIR_REG_reg[0][2]/D ([R]       )                      0.0000 &   0.3482 r
+  data arrival time                                                0.3482
+
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I1/Y ([R]       )                             0.0408 &   0.0603 r
+  clk__L3_I1/Y ([R]       )                             0.0271 &   0.0874 f
+  clk__L4_I2/Y ([R]       )                             0.0407 &   0.1281 r
+  FIR_REG_reg[0][2]/CK ([R]       )                     0.0093 &   0.1374 r
+  clock reconvergence pessimism                        -0.0026     0.1348
+  clock uncertainty                                     0.1000     0.2348
+  library hold time                                    -0.0353     0.1995
+  data required time                                               0.1995
+  ------------------------------------------------------------------------------
+  data required time                                               0.1995
+  data arrival time                                               -0.3482
+  ------------------------------------------------------------------------------
+  slack ([R])                                                      0.1487
+
+
+  Startpoint: FIR_REG_reg[0][13]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[0][13]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Last common pin: clk
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I2/Y ([R]       )                             0.0223 &   0.0419 r
+  clk__L3_I3/Y ([R]       )                             0.0213 &   0.0632 f
+  clk__L4_I5/Y ([R]       )                             0.0196 &   0.0828 r
+  clk__L5_I1/Y ([R]       )                             0.0265 &   0.1093 f
+  clk__L6_I1/Y ([R]       )                             0.0257 &   0.1349 r
+  clk__L7_I2/Y ([R]       )                             0.0252 &   0.1602 f
+  clk__L8_I9/Y ([R]       )                             0.0331 &   0.1932 r
+  FIR_REG_reg[0][13]/CK ([R]       )                    0.0047 &   0.1979 r
+  FIR_REG_reg[0][13]/Q ([R]       )                     0.1364 &   0.3343 r
+  U2226/Y ([R]   )                                      0.0748 &   0.4091 r
+  FIR_REG_reg[0][13]/D ([R]       )                     0.0001 &   0.4092 r
+  data arrival time                                                0.4092
+
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I2/Y ([R]       )                             0.0231 &   0.0426 r
+  clk__L3_I3/Y ([R]       )                             0.0214 &   0.0641 f
+  clk__L4_I5/Y ([R]       )                             0.0196 &   0.0837 r
+  clk__L5_I1/Y ([R]       )                             0.0272 &   0.1109 f
+  clk__L6_I1/Y ([R]       )                             0.0264 &   0.1374 r
+  clk__L7_I2/Y ([R]       )                             0.0253 &   0.1627 f
+  clk__L8_I9/Y ([R]       )                             0.0335 &   0.1962 r
+  FIR_REG_reg[0][13]/CK ([R]       )                    0.0047 &   0.2008 r
+  clock reconvergence pessimism                         0.0000     0.2008
+  clock uncertainty                                     0.1000     0.3008
+  library hold time                                    -0.0408     0.2601
+  data required time                                               0.2601
+  ------------------------------------------------------------------------------
+  data required time                                               0.2601
+  data arrival time                                               -0.4092
+  ------------------------------------------------------------------------------
+  slack ([R])                                                      0.1492
+
+
+  Startpoint: FIR_REG_reg[0][1]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[0][1]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Last common pin: clk__L2_I1/Y
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I1/Y ([R]       )                             0.0382 &   0.0577 r
+  clk__L3_I1/Y ([R]       )                             0.0269 &   0.0846 f
+  clk__L4_I2/Y ([R]       )                             0.0388 &   0.1235 r
+  FIR_REG_reg[0][1]/CK ([R]       )                     0.0049 &   0.1283 r
+  FIR_REG_reg[0][1]/Q ([R]       )                      0.1306 &   0.2589 r
+  U2271/Y ([R]   )                                      0.0907 &   0.3496 r
+  FIR_REG_reg[0][1]/D ([R]       )                      0.0001 &   0.3497 r
+  data arrival time                                                0.3497
+
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I1/Y ([R]       )                             0.0408 &   0.0603 r
+  clk__L3_I1/Y ([R]       )                             0.0271 &   0.0874 f
+  clk__L4_I2/Y ([R]       )                             0.0407 &   0.1281 r
+  FIR_REG_reg[0][1]/CK ([R]       )                     0.0054 &   0.1335 r
+  clock reconvergence pessimism                        -0.0026     0.1309
+  clock uncertainty                                     0.1000     0.2309
+  library hold time                                    -0.0352     0.1957
+  data required time                                               0.1957
+  ------------------------------------------------------------------------------
+  data required time                                               0.1957
+  data arrival time                                               -0.3497
+  ------------------------------------------------------------------------------
+  slack ([R])                                                      0.1540
+
+
+  Startpoint: FIR_REG_reg[2][14]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[1][14]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Last common pin: clk
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I1/Y ([R]       )                             0.0382 &   0.0577 r
+  clk__L3_I2/Y ([R]       )                             0.0289 &   0.0866 f
+  clk__L4_I4/Y ([R]       )                             0.0353 &   0.1218 r
+  FIR_REG_reg[2][14]/CK ([R]       )                    0.0055 &   0.1273 r
+  FIR_REG_reg[2][14]/Q ([R]       )                     0.1888 &   0.3162 r
+  FE_OCPC113_FIR_REG_2__14_/Y ([R]   )                  0.0721 &   0.3883 r
+  U2206/Y ([R]   )                                      0.0976 &   0.4859 r
+  FIR_REG_reg[1][14]/D ([R]       )                     0.0001 &   0.4860 r
+  data arrival time                                                0.4860
+
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I0/Y ([R]   )                                 0.0465 &   0.0661 f
+  clk__L3_I0/Y ([R]       )                             0.0582 &   0.1242 f
+  clk__L4_I0/Y ([R]       )                             0.0251 &   0.1493 r
+  clk__L5_I0/Y ([R]       )                             0.0240 &   0.1733 f
+  clk__L6_I0/Y ([R]       )                             0.0299 &   0.2033 r
+  clk__L7_I0/Y ([R]       )                             0.0379 &   0.2411 f
+  clk__L8_I3/Y ([R]       )                             0.0257 &   0.2669 r
+  FIR_REG_reg[1][14]/CK ([R]       )                    0.0005 &   0.2674 r
+  clock reconvergence pessimism                         0.0000     0.2674
+  clock uncertainty                                     0.1000     0.3674
+  library hold time                                    -0.0370     0.3304
+  data required time                                               0.3304
+  ------------------------------------------------------------------------------
+  data required time                                               0.3304
+  data arrival time                                               -0.4860
+  ------------------------------------------------------------------------------
+  slack ([R])                                                      0.1556
+
+
+  Startpoint: FIR_REG_reg[7][3]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[7][3]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Last common pin: clk
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I2/Y ([R]       )                             0.0223 &   0.0419 r
+  clk__L3_I3/Y ([R]       )                             0.0213 &   0.0632 f
+  clk__L4_I5/Y ([R]       )                             0.0196 &   0.0828 r
+  clk__L5_I1/Y ([R]       )                             0.0265 &   0.1093 f
+  clk__L6_I1/Y ([R]       )                             0.0257 &   0.1349 r
+  clk__L7_I2/Y ([R]       )                             0.0252 &   0.1602 f
+  clk__L8_I8/Y ([R]       )                             0.0323 &   0.1925 r
+  FIR_REG_reg[7][3]/CK ([R]       )                     0.0068 &   0.1993 r
+  FIR_REG_reg[7][3]/Q ([R]       )                      0.1354 &   0.3347 r
+  U2224/Y ([R]   )                                      0.0900 &   0.4247 r
+  FIR_REG_reg[7][3]/D ([R]       )                      0.0001 &   0.4247 r
+  data arrival time                                                0.4247
+
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I2/Y ([R]       )                             0.0231 &   0.0426 r
+  clk__L3_I3/Y ([R]       )                             0.0214 &   0.0641 f
+  clk__L4_I5/Y ([R]       )                             0.0196 &   0.0837 r
+  clk__L5_I1/Y ([R]       )                             0.0272 &   0.1109 f
+  clk__L6_I1/Y ([R]       )                             0.0264 &   0.1374 r
+  clk__L7_I2/Y ([R]       )                             0.0253 &   0.1627 f
+  clk__L8_I8/Y ([R]       )                             0.0329 &   0.1956 r
+  FIR_REG_reg[7][3]/CK ([R]       )                     0.0068 &   0.2023 r
+  clock reconvergence pessimism                         0.0000     0.2023
+  clock uncertainty                                     0.1000     0.3023
+  library hold time                                    -0.0350     0.2674
+  data required time                                               0.2674
+  ------------------------------------------------------------------------------
+  data required time                                               0.2674
+  data arrival time                                               -0.4247
+  ------------------------------------------------------------------------------
+  slack ([R])                                                      0.1574
+
+
+  Startpoint: FIR_REG_reg[3][15]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[2][15]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Last common pin: clk
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I1/Y ([R]       )                             0.0382 &   0.0577 r
+  clk__L3_I2/Y ([R]       )                             0.0289 &   0.0866 f
+  clk__L4_I4/Y ([R]       )                             0.0353 &   0.1218 r
+  FIR_REG_reg[3][15]/CK ([R]       )                    0.0062 &   0.1281 r
+  FIR_REG_reg[3][15]/Q ([R]       )                     0.1192 &   0.2473 r
+  FE_OFC45_FIR_REG_3__15_/Y ([R]   )                    0.0990 &   0.3463 r
+  U2202/Y ([R]   )                                      0.0781 &   0.4244 r
+  FIR_REG_reg[2][15]/D ([R]       )                     0.0000 &   0.4245 r
+  data arrival time                                                0.4245
+
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I2/Y ([R]       )                             0.0231 &   0.0426 r
+  clk__L3_I3/Y ([R]       )                             0.0214 &   0.0641 f
+  clk__L4_I5/Y ([R]       )                             0.0196 &   0.0837 r
+  clk__L5_I1/Y ([R]       )                             0.0272 &   0.1109 f
+  clk__L6_I1/Y ([R]       )                             0.0264 &   0.1374 r
+  clk__L7_I2/Y ([R]       )                             0.0253 &   0.1627 f
+  clk__L8_I9/Y ([R]       )                             0.0335 &   0.1962 r
+  FIR_REG_reg[2][15]/CK ([R]       )                    0.0037 &   0.1999 r
+  clock reconvergence pessimism                         0.0000     0.1999
+  clock uncertainty                                     0.1000     0.2999
+  library hold time                                    -0.0333     0.2665
+  data required time                                               0.2665
+  ------------------------------------------------------------------------------
+  data required time                                               0.2665
+  data arrival time                                               -0.4245
+  ------------------------------------------------------------------------------
+  slack ([R])                                                      0.1579
+
+
+  Startpoint: FIR_REG_reg[7][6]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Endpoint: FIR_REG_reg[6][6]
+               (rising edge-triggered flip-flop clocked by REF_CLK)
+  Last common pin: clk
+  Path Group: REF_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I2/Y ([R]       )                             0.0223 &   0.0419 r
+  clk__L3_I3/Y ([R]       )                             0.0213 &   0.0632 f
+  clk__L4_I5/Y ([R]       )                             0.0196 &   0.0828 r
+  clk__L5_I1/Y ([R]       )                             0.0265 &   0.1093 f
+  clk__L6_I1/Y ([R]       )                             0.0257 &   0.1349 r
+  clk__L7_I2/Y ([R]       )                             0.0252 &   0.1602 f
+  clk__L8_I8/Y ([R]       )                             0.0323 &   0.1925 r
+  FIR_REG_reg[7][6]/CK ([R]       )                     0.0053 &   0.1977 r
+  FIR_REG_reg[7][6]/Q ([R]       )                      0.1498 &   0.3476 r
+  U2263/Y ([R]   )                                      0.0754 &   0.4230 r
+  FIR_REG_reg[6][6]/D ([R]       )                      0.0001 &   0.4231 r
+  data arrival time                                                0.4231
+
+  clock REF_CLK (rise edge)                             0.0000     0.0000
+  clock source latency                                  0.0000     0.0000
+  clk (in)                                              0.0000 &   0.0000 r
+  clk__L1_I0/Y ([R]       )                             0.0196 &   0.0196 f
+  clk__L2_I2/Y ([R]       )                             0.0231 &   0.0426 r
+  clk__L3_I3/Y ([R]       )                             0.0214 &   0.0641 f
+  clk__L4_I5/Y ([R]       )                             0.0196 &   0.0837 r
+  clk__L5_I1/Y ([R]       )                             0.0272 &   0.1109 f
+  clk__L6_I1/Y ([R]       )                             0.0264 &   0.1374 r
+  clk__L7_I2/Y ([R]       )                             0.0253 &   0.1627 f
+  clk__L8_I8/Y ([R]       )                             0.0329 &   0.1956 r
+  FIR_REG_reg[6][6]/CK ([R]       )                     0.0033 &   0.1989 r
+  clock reconvergence pessimism                         0.0000     0.1989
+  clock uncertainty                                     0.1000     0.2989
+  library hold time                                    -0.0340     0.2648
+  data required time                                               0.2648
+  ------------------------------------------------------------------------------
+  data required time                                               0.2648
+  data arrival time                                               -0.4231
+  ------------------------------------------------------------------------------
+  slack ([R])                                                      0.1583
+
+Warning: report_timing has satisfied the max_paths criteria. There are 208 further endpoints which have paths of interest with slack less than 1000.0000 that were not considered when generating this report. (UITE-502)
+
+1

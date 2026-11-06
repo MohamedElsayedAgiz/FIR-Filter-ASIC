@@ -63,7 +63,7 @@
 *.zip
 *.7z
 
-# Checksum-reviewed evidence for the private repository
+# Exceptions for approved public reports listed in the SHA-256 manifest
 !/reports/tool_exports/synthesis/clocks.rpt
 !/reports/tool_exports/synthesis/constraints.rpt
 !/reports/tool_exports/dft/clocks.rpt

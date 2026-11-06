@@ -14,7 +14,7 @@ An ASIC case study of a symmetric, pipelined FIR filter implemented in Verilog. 
 | Total power | **7.943 mW** | PrimeTime time-based analysis, TT at 1.2 V and 25 °C |
 | DFT scan chains | **2** | Multiplexed scan configuration |
 
-See [results and analysis scope](docs/RESULTS.md) and the [EDA report source index](reports/README.md). The [evidence review](reports/README.md) classifies all 38 genuine tool exports and records the permission needed for each. All 38 tool exports are available for private review, including 14 redacted copies. The detailed [PrimeTime setup](reports/tool_exports/primetime/setup_timing.rpt) and [functional hold](reports/tool_exports/primetime/hold_timing.rpt) reports preserve the original critical paths and slack. Start with [DFT coverage](reports/tool_exports/dft/coverage_dft.rpt), [post-synthesis Formality](reports/tool_exports/formality/post_synthesis/passing_points.rpt), [post-DFT Formality](reports/tool_exports/formality/post_dft/passing_points.rpt), [Encounter post-route setup](reports/tool_exports/encounter/FIR_Filter_postRoute.summary), [Encounter post-route hold](reports/tool_exports/encounter/FIR_Filter_postRoute_hold.summary), [PrimeTime setup violations](reports/tool_exports/primetime/setup_violations.rpt), [PrimeTime hold violations](reports/tool_exports/primetime/hold_violations.rpt), and [PrimeTime time-based power](reports/tool_exports/primetime/power_tt.rpt). See the [screenshot review](docs/IMAGE_SELECTION.md) for the original captures and their release status.
+The [results notes](docs/RESULTS.md) describe the analysis conditions and limits. The [EDA report index](reports/README.md) links all 38 tool exports, including 14 copies with marked redactions. Key evidence includes [DFT coverage](reports/tool_exports/dft/coverage_dft.rpt), [post-synthesis Formality](reports/tool_exports/formality/post_synthesis/passing_points.rpt), [post-DFT Formality](reports/tool_exports/formality/post_dft/passing_points.rpt), [Encounter setup](reports/tool_exports/encounter/FIR_Filter_postRoute.summary) and [hold](reports/tool_exports/encounter/FIR_Filter_postRoute_hold.summary), [PrimeTime setup](reports/tool_exports/primetime/setup_timing.rpt) and [functional hold](reports/tool_exports/primetime/hold_timing.rpt), and [time-based power](reports/tool_exports/primetime/power_tt.rpt).
 
 ## RTL design and simulation
 
@@ -48,7 +48,7 @@ The reported setup and hold results apply to the stated corners and functional s
 - [constraints/](constraints/) describes the synthesis, DFT, and final timing targets.
 - [scripts/](scripts/) contains sanitized Tcl and simulation scripts.
 - [reports/](reports/) indexes the original reports by stage, tool, and filename.
-- [docs/](docs/) records the measured results, image selection, and review scope.
+- [docs/](docs/) contains analysis notes and functional simulation captures.
 - [tools/](tools/) and the [GitHub Actions workflow](.github/workflows/release-guard.yml) provide release checks.
 
 See the [rights and publication policy](RIGHTS_AND_PUBLICATION.md) and [license notice](LICENSE). Run `python tools/check_public_release.py` from the repository root for the automated file and path checks.

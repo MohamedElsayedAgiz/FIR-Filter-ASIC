@@ -1,0 +1,282 @@
+In mode: Internal_scan...
+  Design has scan chains in this mode
+  Design is scan routed
+  Post-DFT DRC enabled
+
+Information: Starting test design rule checking. (TEST-222)
+  Loading test protocol
+  ...basic checks...
+  ...basic sequential cell checks...
+  ...checking vector rules...
+  ...checking clock rules...
+  ...checking scan chain rules...
+  ...checking scan compression rules...
+  ...checking X-state rules...
+  ...checking tristate rules...
+  ...extracting scan details...
+
+-----------------------------------------------------------------
+  DRC Report
+
+  Total violations: 0
+
+-----------------------------------------------------------------
+
+
+Test Design rule checking did not find violations
+
+-----------------------------------------------------------------
+  Sequential Cell Report
+
+  0 out of 207 sequential cells have violations
+
+-----------------------------------------------------------------
+
+SEQUENTIAL CELLS WITHOUT VIOLATIONS
+      * 205 cells are valid scan cells
+         FIR_REG_reg[7][7]
+         FIR_REG_reg[7][3]
+         FIR_REG_reg[7][2]
+         FIR_REG_reg[2][0]
+         FIR_REG_reg[2][12]
+         FIR_REG_reg[5][10]
+         FIR_REG_reg[2][2]
+         FIR_REG_reg[5][12]
+         FIR_REG_reg[5][7]
+         FIR_REG_reg[3][10]
+         FIR_REG_reg[2][9]
+         FIR_REG_reg[7][4]
+         FIR_REG_reg[7][0]
+         FIR_REG_reg[1][3]
+         FIR_REG_reg[0][15]
+         FIR_REG_reg[0][0]
+         genblk1.genblk1.A_sum_0_1_reg[12]
+         genblk1.genblk1.A_sum_0_1_reg[11]
+         genblk1.genblk1.A_sum_0_1_reg[10]
+         genblk1.genblk1.A_sum_0_1_reg[9]
+         genblk1.genblk1.A_sum_0_1_reg[8]
+         genblk1.genblk1.A_sum_0_1_reg[7]
+         genblk1.genblk1.A_sum_0_1_reg[6]
+         genblk1.genblk1.A_sum_0_1_reg[5]
+         genblk1.genblk1.A_sum_0_1_reg[4]
+         genblk1.genblk1.A_sum_0_1_reg[3]
+         genblk1.genblk1.A_sum_0_1_reg[2]
+         genblk1.genblk1.A_sum_0_1_reg[1]
+         genblk1.genblk1.B_sum_2_3_reg[13]
+         genblk1.genblk1.B_sum_2_3_reg[12]
+         genblk1.genblk1.B_sum_2_3_reg[11]
+         genblk1.genblk1.B_sum_2_3_reg[10]
+         genblk1.genblk1.B_sum_2_3_reg[9]
+         genblk1.genblk1.B_sum_2_3_reg[8]
+         genblk1.genblk1.B_sum_2_3_reg[7]
+         genblk1.genblk1.B_sum_2_3_reg[6]
+         genblk1.genblk1.B_sum_2_3_reg[5]
+         genblk1.genblk1.B_sum_2_3_reg[4]
+         genblk1.genblk1.B_sum_2_3_reg[3]
+         genblk1.genblk1.B_sum_2_3_reg[2]
+         genblk1.genblk1.B_sum_2_3_reg[1]
+         genblk1.genblk1.valid_pipe_reg[0]
+         FIR_REG_reg[5][3]
+         FIR_REG_reg[4][8]
+         FIR_REG_reg[1][4]
+         FIR_REG_reg[6][5]
+         FIR_REG_reg[3][11]
+         FIR_REG_reg[2][14]
+         FIR_REG_reg[2][6]
+         data_out_reg[19]
+         data_out_reg[18]
+         data_out_reg[17]
+         data_out_reg[16]
+         data_out_reg[15]
+         data_out_reg[14]
+         data_out_reg[13]
+         data_out_reg[12]
+         data_out_reg[11]
+         data_out_reg[10]
+         data_out_reg[9]
+         data_out_reg[8]
+         data_out_reg[7]
+         data_out_reg[6]
+         data_out_reg[5]
+         data_out_reg[4]
+         data_out_reg[3]
+         data_out_reg[2]
+         data_out_reg[1]
+         data_out_reg[0]
+         genblk1.genblk1.B_sum_2_3_reg[14]
+         FIR_REG_reg[6][6]
+         genblk1.genblk1.B_sum_2_3_reg[19]
+         genblk1.genblk1.B_sum_2_3_reg[29]
+         genblk1.genblk1.B_sum_2_3_reg[22]
+         genblk1.genblk1.B_sum_2_3_reg[24]
+         genblk1.genblk1.B_sum_2_3_reg[21]
+         FIR_REG_reg[4][13]
+         genblk1.genblk1.B_sum_2_3_reg[23]
+         FIR_REG_reg[0][2]
+         FIR_REG_reg[0][4]
+         FIR_REG_reg[0][11]
+         FIR_REG_reg[3][2]
+         FIR_REG_reg[4][4]
+         FIR_REG_reg[5][13]
+         genblk1.genblk1.A_sum_0_1_reg[14]
+         FIR_REG_reg[5][9]
+         FIR_REG_reg[6][2]
+         FIR_REG_reg[1][8]
+         FIR_REG_reg[2][10]
+         FIR_REG_reg[2][4]
+         genblk1.genblk1.A_sum_0_1_reg[33]
+         FIR_REG_reg[2][7]
+         genblk1.genblk1.A_sum_0_1_reg[18]
+         genblk1.genblk1.A_sum_0_1_reg[17]
+         genblk1.genblk1.B_sum_2_3_reg[28]
+         genblk1.genblk1.B_sum_2_3_reg[27]
+         FIR_REG_reg[5][5]
+         genblk1.genblk1.B_sum_2_3_reg[25]
+         genblk1.genblk1.B_sum_2_3_reg[26]
+         FIR_REG_reg[2][8]
+         FIR_REG_reg[3][5]
+         genblk1.genblk1.B_sum_2_3_reg[20]
+         FIR_REG_reg[3][9]
+         FIR_REG_reg[3][8]
+         FIR_REG_reg[1][2]
+         FIR_REG_reg[3][0]
+         FIR_REG_reg[6][7]
+         FIR_REG_reg[7][15]
+         FIR_REG_reg[7][12]
+         FIR_REG_reg[7][9]
+         FIR_REG_reg[7][5]
+         FIR_REG_reg[5][6]
+         FIR_REG_reg[2][1]
+         FIR_REG_reg[1][10]
+         FIR_REG_reg[3][7]
+         FIR_REG_reg[4][3]
+         FIR_REG_reg[4][14]
+         FIR_REG_reg[7][14]
+         FIR_REG_reg[6][12]
+         FIR_REG_reg[6][1]
+         FIR_REG_reg[1][15]
+         FIR_REG_reg[1][7]
+         FIR_REG_reg[0][5]
+         FIR_REG_reg[0][1]
+         genblk1.genblk1.B_sum_2_3_reg[15]
+         FIR_REG_reg[0][7]
+         FIR_REG_reg[3][12]
+         FIR_REG_reg[3][15]
+         FIR_REG_reg[0][9]
+         FIR_REG_reg[2][15]
+         FIR_REG_reg[7][1]
+         FIR_REG_reg[6][13]
+         genblk1.genblk1.B_sum_2_3_reg[33]
+         FIR_REG_reg[6][10]
+         FIR_REG_reg[3][1]
+         FIR_REG_reg[3][3]
+         FIR_REG_reg[3][13]
+         FIR_REG_reg[4][0]
+         FIR_REG_reg[5][11]
+         FIR_REG_reg[2][13]
+         FIR_REG_reg[4][6]
+         FIR_REG_reg[5][14]
+         FIR_REG_reg[5][15]
+         FIR_REG_reg[7][11]
+         FIR_REG_reg[0][14]
+         FIR_REG_reg[0][10]
+         FIR_REG_reg[6][14]
+         FIR_REG_reg[0][3]
+         FIR_REG_reg[1][12]
+         FIR_REG_reg[1][11]
+         FIR_REG_reg[6][9]
+         FIR_REG_reg[1][5]
+         genblk1.genblk1.A_sum_0_1_reg[20]
+         genblk1.genblk1.A_sum_0_1_reg[13]
+         genblk1.genblk1.B_sum_2_3_reg[18]
+         genblk1.genblk1.B_sum_2_3_reg[17]
+         genblk1.genblk1.A_sum_0_1_reg[16]
+         FIR_REG_reg[0][6]
+         FIR_REG_reg[4][12]
+         FIR_REG_reg[1][6]
+         FIR_REG_reg[6][4]
+         FIR_REG_reg[1][9]
+         FIR_REG_reg[6][8]
+         FIR_REG_reg[3][4]
+         FIR_REG_reg[6][0]
+         FIR_REG_reg[5][2]
+         FIR_REG_reg[4][9]
+         FIR_REG_reg[4][1]
+         FIR_REG_reg[0][13]
+         FIR_REG_reg[7][8]
+         FIR_REG_reg[5][4]
+         FIR_REG_reg[1][1]
+         FIR_REG_reg[3][6]
+         FIR_REG_reg[7][10]
+         FIR_REG_reg[1][14]
+         FIR_REG_reg[6][15]
+         FIR_REG_reg[0][8]
+         FIR_REG_reg[7][6]
+         FIR_REG_reg[7][13]
+         FIR_REG_reg[0][12]
+         genblk1.genblk1.A_sum_0_1_reg[15]
+         FIR_REG_reg[4][15]
+         FIR_REG_reg[1][0]
+         FIR_REG_reg[4][11]
+         FIR_REG_reg[4][10]
+         FIR_REG_reg[6][11]
+         FIR_REG_reg[6][3]
+         FIR_REG_reg[4][5]
+         FIR_REG_reg[5][8]
+         FIR_REG_reg[3][14]
+         genblk1.genblk1.A_sum_0_1_reg[24]
+         genblk1.genblk1.B_sum_2_3_reg[16]
+         genblk1.genblk1.A_sum_0_1_reg[25]
+         genblk1.genblk1.A_sum_0_1_reg[21]
+         FIR_REG_reg[2][3]
+         FIR_REG_reg[5][1]
+         FIR_REG_reg[5][0]
+         FIR_REG_reg[4][7]
+         FIR_REG_reg[2][11]
+         genblk1.genblk1.A_sum_0_1_reg[22]
+         genblk1.genblk1.A_sum_0_1_reg[23]
+         genblk1.genblk1.A_sum_0_1_reg[19]
+         FIR_REG_reg[2][5]
+         FIR_REG_reg[4][2]
+         FIR_REG_reg[1][13]
+      *   2 cells are non-scan shift-register cells
+         out_valid_reg
+         genblk1.genblk1.valid_pipe_reg[1]
+
+....Inferring feed-through connections....
+Information: Test design rule checking completed. (TEST-123)
+  Running test coverage estimation...
+ 17946 faults were added to fault list.
+ ----------------------------------------------------------
+ #patterns     #faults     #ATPG faults  test      process
+ stored     detect/active  red/au/abort  coverage  CPU time
+ ---------  -------------  ------------  --------  --------
+ Begin deterministic ATPG: #uncollapsed_faults=16170, abort_limit=10...
+ 0           15596    574         0/0/7    96.80%      0.02
+ 0             409    165        0/0/14    99.08%      0.04
+ 0              86     77        2/0/26    99.57%      0.05
+ 0              30     42        4/0/32    99.77%      0.06
+ 
+            Pattern Summary Report
+ -----------------------------------------------
+ #internal patterns                           0
+ -----------------------------------------------
+ 
+
+     Uncollapsed Stuck Fault Summary Report
+ -----------------------------------------------
+ fault class                     code   #faults
+ ------------------------------  ----  ---------
+ Detected                         DT      17897
+ Possibly detected                PT          0
+ Undetectable                     UD          7
+ ATPG untestable                  AU          0
+ Not detected                     ND         42
+ -----------------------------------------------
+ total faults                             17946
+ test coverage                            99.77%
+ -----------------------------------------------
+  Information: The test coverage above may be inferior
+               than the real test coverage with customized
+               protocol and test simulation library.
+1

@@ -12,3 +12,5 @@
 | STA | No standalone STA screenshot found in the available original images | The actual PrimeTime reports are indexed in the [report review](../reports/README.md). |
 
 The [project cover](images/linkedin_cover.png) is a summary graphic. The two simulation captures already present in the private repository are unchanged. The three additional console captures show project-generated testbench output.
+
+The [previous public technical report](https://github.com/MohamedElsayedAgiz/Low-Power-Multi-Clock-Digital-System/blob/main/docs/Technical_Project_Report.pdf) lists functional verification, a mapped synthesis schematic, a DFT gate-level view, routed Encounter layout, a post-PnR Formality result, QuestaSim GLS, and PrimeTime outputs as embedded figures. The FIR console captures document functional RTL tests. The FIR mapped and routed views are comparable in purpose, and its available Formality screenshot needs privacy treatment and clearance. The FIR PrimeTime evidence is available as original text exports selected for private review.

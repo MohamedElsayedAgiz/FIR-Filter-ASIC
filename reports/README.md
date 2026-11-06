@@ -19,11 +19,11 @@ In timing tables, [R] marks a redacted standard-cell type. Longer markers identi
 | Synopsys Design Compiler scan DFT | [dft/setup_dft.rpt](tool_exports/dft/setup_dft.rpt) | Sanitized original | library or operating-condition identifier, standard-cell type in timing rows. |
 | Synopsys Design Compiler scan DFT | [dft/hold_dft.rpt](tool_exports/dft/hold_dft.rpt) | Sanitized original | library or operating-condition identifier, standard-cell type in timing rows. |
 | Synopsys Design Compiler scan DFT | [dft/power.rpt](tool_exports/dft/power.rpt) | Sanitized original | absolute library path, library or operating-condition identifier. |
-| Synopsys Formality | [formality/post_synthesis/passing_points.rpt](tool_exports/formality/post_synthesis/passing_points.rpt) | Unchanged original | Passing compare points and design hierarchy. Confirm any mapped-point disclosure under the technology terms. |
+| Synopsys Formality | [formality/post_synthesis/passing_points.rpt](tool_exports/formality/post_synthesis/passing_points.rpt) | Unchanged original | Passing compare points and design hierarchy. |
 | Synopsys Formality | [formality/post_synthesis/failing_points.rpt](tool_exports/formality/post_synthesis/failing_points.rpt) | Unchanged original | Failing-point check. |
 | Synopsys Formality | [formality/post_synthesis/aborted_points.rpt](tool_exports/formality/post_synthesis/aborted_points.rpt) | Unchanged original | Aborted-point check. |
 | Synopsys Formality | [formality/post_synthesis/unverified_points.rpt](tool_exports/formality/post_synthesis/unverified_points.rpt) | Unchanged original | Unverified-point check. |
-| Synopsys Formality | [formality/post_dft/passing_points.rpt](tool_exports/formality/post_dft/passing_points.rpt) | Unchanged original | Passing compare points and design hierarchy. Confirm any mapped-point disclosure under the technology terms. |
+| Synopsys Formality | [formality/post_dft/passing_points.rpt](tool_exports/formality/post_dft/passing_points.rpt) | Unchanged original | Passing compare points and design hierarchy. |
 | Synopsys Formality | [formality/post_dft/failing_points.rpt](tool_exports/formality/post_dft/failing_points.rpt) | Unchanged original | Failing-point check. |
 | Synopsys Formality | [formality/post_dft/aborted_points.rpt](tool_exports/formality/post_dft/aborted_points.rpt) | Unchanged original | Aborted-point check. |
 | Synopsys Formality | [formality/post_dft/unverified_points.rpt](tool_exports/formality/post_dft/unverified_points.rpt) | Unchanged original | Unverified-point check. |
@@ -43,6 +43,6 @@ In timing tables, [R] marks a redacted standard-cell type. Longer markers identi
 | Synopsys PrimeTime | [primetime/hold_parasitics.rpt](tool_exports/primetime/hold_parasitics.rpt) | Unchanged original | No redactions. |
 | Synopsys PrimeTime | [primetime/setup_violations.rpt](tool_exports/primetime/setup_violations.rpt) | Unchanged original | Constraint violation check with slack-only report settings. |
 | Synopsys PrimeTime | [primetime/hold_violations.rpt](tool_exports/primetime/hold_violations.rpt) | Unchanged original | Constraint violation check with slack-only report settings. |
-| Synopsys PrimeTime | [primetime/power_tt.rpt](tool_exports/primetime/power_tt.rpt) | Unchanged original | Time-based power totals and group breakdown. Confirm disclosure of technology-derived power values under the technology terms. |
+| Synopsys PrimeTime | [primetime/power_tt.rpt](tool_exports/primetime/power_tt.rpt) | Unchanged original | Time-based power totals and group breakdown. |
 
 See the [results notes](../docs/RESULTS.md) for analysis conditions and the [simulation captures](../docs/IMAGE_SELECTION.md) for RTL verification evidence.
